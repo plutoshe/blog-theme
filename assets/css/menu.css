@@ -1,20 +1,37 @@
-aside {
-    position: fixed;
-    width: 15rem;
+.sidenav {
     height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
     top: 0;
-    left: -15rem;
-    background-color: #fff;
-    z-index: 20;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
 }
 
-aside h2 {
+.sidenav a {
+    padding: 8px 0px 8px 0px;
+    text-decoration: none;
+    font-size: 0.85rem;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+    box-align: left;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+nav h2 {
     margin: 0 1.25rem 0;
     font-family: 'Titillium Web','Helvetica Neue',Helvetica,sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 1.125rem;
-    color: #141414;
-    border-bottom: 1px solid #141414;
+    color: #fff;
+    border-bottom: 1px solid #fff;
     line-height: 50px;
 }
