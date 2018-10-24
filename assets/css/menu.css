@@ -1,0 +1,20 @@
+aside {
+    position: fixed;
+    width: 15rem;
+    height: 100%;
+    top: 0;
+    left: -15rem;
+    background-color: #fff;
+    z-index: 20;
+}
+
+aside h2 {
+    margin: 0 1.25rem 0;
+    font-family: 'Titillium Web','Helvetica Neue',Helvetica,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.125rem;
+    color: #141414;
+    border-bottom: 1px solid #141414;
+    line-height: 50px;
+}

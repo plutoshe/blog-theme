@@ -1,0 +1,52 @@
+body .main-page .bar-header {
+    background-color: rgba(0,0,0,0.7);
+}
+
+.bar-header {
+    background-color: #141414;
+    padding: .625rem .938rem;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    -webkit-transition: top .5s;
+    transition: top .5s;
+}
+
+.bar-header .icon-menu{
+    float:left;
+    width:1.25rem;
+    height:1.25rem;
+    margin:.313rem 1.00rem .313rem 0;
+    cursor:pointer;
+    fill:#fff;
+}
+
+.bar-header .logo {
+    margin: 0;
+    height: 2rem;
+    line-height: 2rem;
+    padding: 0;
+    border: 0;
+}
+
+.bar-header .logo a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Titillium Web','Helvetica Neue',Helvetica,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+h1 {
+    font-size: 2em;
+    margin: .67em 0;
+}
+
+a {
+    background-color: transparent;
+}
+
