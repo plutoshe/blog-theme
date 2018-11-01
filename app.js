@@ -9,7 +9,7 @@ var showdown  = require('showdown'),
 
 function portfolioRender(req,res){
     //console.log(path.join(__dirname + '/src/portfolio.ejs'));
-    res.render(path.join(__dirname + '/src/portfolio.ejs'));
+    res.render(path.join(__dirname + '/src/portfolio'));
     
     //ejs.renderFi
 }
@@ -18,18 +18,22 @@ function portfolioHtmlRender(req,res) {
 }
 
 function aboutRender(req,res){
-    res.render(path.join(__dirname + '/src/about.ejs'));
-    
 }
+    
 
-blogRender = [];
+var blogRender = [];
 for (var i = 0; i < 2; i++) {
     var j = i;
-    let text = '# hello, markdown!' + j;
+    let text = '# blog content!' + j;
     let html = converter.makeHtml(text);
     blogRender[j] = function (req, res) {
-        res.write(html);
+        console.log(html);
+        res.render(path.join(__dirname+'/src/blog'), {
+            additional_css: '<link rel="stylesheet" type="text/css" href="/assets/css/blog.css">',
+            blog_content: html,
+        });
     }
+    
     app.get('/blog/test' + i, blogRender[i]);
 }
 

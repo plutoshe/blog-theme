@@ -10,6 +10,11 @@ body {
     transition: margin-left .5s;
     background: #202020;
 }
+#main > .blog {
+    padding-top: 3rem;
+    transition: margin-left .5s;
+    background: #fff;
+}
 
 #overlay.show {
     pointer-events: auto;

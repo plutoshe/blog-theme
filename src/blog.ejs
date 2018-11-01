@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <% include deps/header.ejs %>
+    <%- additional_css %>
+</head>
+<body>
+    <% include deps/includeJs.ejs %>
+    <% include modules/menu.ejs %>
+    <div id = "main">
+        <% include modules/pageHeader.ejs %>
+        <div class = "blog">
+            <%- blog_content %>
+        </div>
+    </div>
+</body>
+</html> 
