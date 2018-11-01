@@ -2,6 +2,10 @@ var express = require("express");
 var app     = express();
 var path    = require("path");
 var ejs     = require('ejs');
+var showdown  = require('showdown'),
+    converter = new showdown.Converter();
+    
+
 
 function portfolioRender(req,res){
     //console.log(path.join(__dirname + '/src/portfolio.ejs'));
@@ -17,6 +21,18 @@ function aboutRender(req,res){
     res.render(path.join(__dirname + '/src/about.ejs'));
     
 }
+
+blogRender = [];
+for (var i = 0; i < 2; i++) {
+    var j = i;
+    let text = '# hello, markdown!' + j;
+    let html = converter.makeHtml(text);
+    blogRender[j] = function (req, res) {
+        res.write(html);
+    }
+    app.get('/blog/test' + i, blogRender[i]);
+}
+
 
 app.get('/', portfolioRender);
 

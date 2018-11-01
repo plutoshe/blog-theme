@@ -5,7 +5,8 @@ body {
     background-color: #202020;
 }
 
-#main {
+#main > .row {
+    padding-top: 5rem;
     transition: margin-left .5s;
     background: #202020;
 }
@@ -16,6 +17,13 @@ body {
     -webkit-filter: none;
     filter: none;
     opacity: 1;
+}
+#main > .row {
+    display: flex;
+    flex-flow: row wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    margin: 0 10px;
 }
 
 #overlay {
@@ -34,11 +42,6 @@ body {
     opacity: 0;
     -webkit-transition: all .5s;
     transition: all .5s;
-}
-
-/* portfolio table */
-.row {
-    margin: 0px 0px;
 }
 
 /* Add padding BETWEEN each column */
