@@ -6,18 +6,25 @@ body {
 }
 
 #main {
-    background: #202020;
+    background: #202020;  
+}
+
+.has_menu {
+    transition: .5s;
 }
 
 #main > .row {
     padding-top: 5rem;
-    transition: margin-left .5s;
     background: #202020;
 }
 #main > .blog {
     padding-top: 3rem;
-    transition: margin-left .5s;
     background: #fff;
+}
+
+#main > #about {
+    padding-top: 3rem;
+    background: #202020;
 }
 
 #overlay.show {

@@ -18,6 +18,7 @@ function portfolioHtmlRender(req,res) {
 }
 
 function aboutRender(req,res){
+    res.render(path.join(__dirname + '/src/about'));
 }
     
 
@@ -39,9 +40,7 @@ for (var i = 0; i < 2; i++) {
 
 
 app.get('/', portfolioRender);
-
-app.get('/portfolio', portfolioHtmlRender);
-
+app.get('/portfolio', portfolioRender);
 app.get('/about', aboutRender);
 
 app.use("/assets", express.static(__dirname+"/assets"));
