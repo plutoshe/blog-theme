@@ -1,2 +1,2 @@
-nodemon -e ejs,yaml app.js
+nodemon -e js,html,css,ejs,yaml app.js
 
