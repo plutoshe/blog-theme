@@ -26,8 +26,14 @@ function menuOperation() {
     
 }
 
-window.onload = function () {
-    document.getElementById("overlay").addEventListener('click', closeNav);
-    document.getElementById('menu').addEventListener('click', menuOperation);
+{
+    let prev_handler = window.onload;
+    window.onload = function () {
+        if (prev_handler) {
+            prev_handler();
+        }
+        document.getElementById("overlay").addEventListener('click', closeNav);
+        document.getElementById('menu').addEventListener('click', menuOperation);
 
+    };
 }
