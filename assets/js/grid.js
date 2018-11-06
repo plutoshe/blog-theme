@@ -1,12 +1,17 @@
 var isOpenNav = false;
 function displayDistinction() {
-    console.log("In");
-    event.target.closest('div[class="content"]').style.background = "yellow";
+
+    //event.target.closest('.content').style.background = "yellow";
+    event.target.closest('.content').style["padding"] = "0";
+    event.target.closest('.content').style["-webkit-filter"] = "grayscale(" + 100 + "%)";
 }
 
 function backToGeneral() {
-    console.log("out");
-    event.target.closest('div[class="content"]').style.background = "black";
+
+    //event.target.closest('.content').style.background = "black";
+    event.target.closest('.content').style["padding"] = "10px";
+    event.target.closest('.content').style["-webkit-filter"] = "grayscale(" + 0 + "%)";
+    
 }
 
 {

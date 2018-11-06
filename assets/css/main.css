@@ -101,6 +101,7 @@ a {
 /* Content */
 .content {
     padding: 10px;
+    transition: 0.3s;
 }
 
 
