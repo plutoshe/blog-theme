@@ -1,7 +1,11 @@
 .blog h1 {
     color: #770077;
-    text-align: center;
+    /* text-align: center; */
 }
 .blog p {
     color: #007777;
+}
+
+.blog_body {
+    padding: 20px 60px 20px 60px;
 }
