@@ -69,8 +69,8 @@ for (var i = 0; i < blog_list.length; i++) {
             blog_content: html,
         });
     }
-    blog_list[i].url = '/blog/' + blog_list[i].title;
-    app.get('/blog/' + blog_list[i].title, blogRender[i]);
+    blog_list[i].url = '/blog/' + encodeURI(blog_list[i].title); //.replace(" ", "_");
+    app.get(blog_list[i].url, blogRender[i]);
 }
 
 function portfolioRender(req,res){
