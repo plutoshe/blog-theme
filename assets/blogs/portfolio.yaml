@@ -1,18 +1,18 @@
 - title: "Satat's Shooting Range"  
   date: 11/6/2018
   intro: intro4
-  md_path: ""
+  md_path: "assets/blogs/utah_1st_prototyp4_Satat'sShootingRange"
   md_name: "utah_1st_prototype4.md"
-  img_path: "assets/img"
-  img_name: "9.jpg"
+  img_path: "assets/blogs/utah_1st_prototyp4_Satat'sShootingRange"
+  img_name: "cover.png"
   tags: ["portfolio", "prototype", "game"]
 - title: "Astrolabe"
   date: 10/16/2018
   intro: intro3
-  md_path: ""
+  md_path: "assets/blogs/utah_1st_prototyp3_astrolabe"
   md_name: "utah_1st_prototype3.md"
-  img_path: "assets/img"
-  img_name: "9.jpg"
+  img_path: "assets/blogs/utah_1st_prototyp3_astrolabe"
+  img_name: "cover.png"
   tags: ["portfolio", "prototype", "game"]
 - title: "I Lava Unicorn"  
   date: 9/25/2018

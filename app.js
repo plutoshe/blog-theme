@@ -23,7 +23,7 @@ var walkSync = function(dir, filelist) {
     filelist = filelist || [];
     files.forEach(function(file) {
         if (fs.statSync(dir + '/' + file).isDirectory()) {    
-            filelist = walkSync(dir + file + '/', filelist);
+            filelist = walkSync(dir + '/' +file + '/', filelist);
         }
         else {
             if (file.substr(file.length - 5) == ".yaml") {
