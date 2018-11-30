@@ -9,12 +9,13 @@ var showdown = require('showdown');
 
 var converter = new showdown.Converter();
 
-function portfolioHtmlRender(req,res) {
-    res.sendFile(path.join(__dirname+'/src/portfolio.html'));
-}
-
 function aboutRender(req,res){
-    res.render(path.join(__dirname + '/src/about'));
+    let text = fs.readFileSync("assets/content/about.md").toString();
+    let html = converter.makeHtml(text);
+    //res.render(path.join(__dirname + '/src/about'));
+    res.render(path.join(__dirname + '/src/about'), {
+        content: html,
+    });
 }
     
 var walkSync = function(dir, filelist) {
@@ -34,7 +35,7 @@ var walkSync = function(dir, filelist) {
     });
     return filelist;
 };
-var blog_yaml_list = walkSync("assets/blogs");
+var blog_yaml_list = walkSync("assets/content/blogs");
 var blog_list = [];
 var blog_list_from_file;
 console.log(blog_yaml_list);
@@ -47,7 +48,7 @@ for (var i = 0; i < blog_yaml_list.length; i++) {
         blog_list = blog_list.concat(blog_list_from_file);
     }
 }
-const default_md_path = "assets/blogs/"
+const default_md_path = "assets/content/blogs/"
 const default_img_path = "assets/img/"
 var blogRender = [];
 console.log(blog_list);
@@ -69,7 +70,8 @@ for (var i = 0; i < blog_list.length; i++) {
             blog_content: html,
         });
     }
-    blog_list[i].url = '/blog/' + encodeURI(blog_list[i].title); //.replace(" ", "_");
+    blog_list[i].url = '/blog/' + encodeURI(blog_list[i].title.split(" ").join("")); //
+    console.log(blog_list[i].url);
     app.get(blog_list[i].url, blogRender[i]);
 }
 

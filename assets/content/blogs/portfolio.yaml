@@ -1,0 +1,39 @@
+- title: "Satat's Shooting Range"  
+  date: 11/6/2018
+  intro: intro4
+  md_path: "assets/content/blogs/utah_1st_prototype4_Satat'sShootingRange"
+  md_name: "content.md"
+  img_path: "assets/content/blogs/utah_1st_prototype4_Satat'sShootingRange"
+  img_name: "cover.png"
+  tags: ["portfolio", "prototype", "game"]
+  #https://drive.google.com/drive/folders/1a8Q4GDHCBvyAVD3nrlC3TSkdWdzbR0Cb
+- title: "Astrolabe"
+  date: 10/16/2018
+  intro: intro3
+  md_path: "assets/content/blogs/utah_1st_prototype3_astrolabe"
+  md_name: "content.md"
+  img_path: "assets/content/blogs/utah_1st_prototype3_astrolabe"
+  img_name: "cover.png"
+  tags: ["portfolio", "prototype", "game"]
+  # https://drive.google.com/drive/folders/1g-cJrho6wfgViBRZHaccF22jQCcu98tg?usp=sharing
+- title: "I Lava Unicorn"  
+  date: 9/25/2018
+  intro: intro2
+  md_path: "assets/content/blogs/utah_1st_prototype2_ILavaUnicorn"
+  md_name: "content.md"
+  img_path: "assets/content/blogs/utah_1st_prototype2_ILavaUnicorn"
+  img_name: "cover1.png"
+  tags: ["portfolio", "prototype", "game"]
+  # https://drive.google.com/drive/folders/1D2CjT5MT3gMYJzMhGZRjugoTHo7n0Vkc
+# - title: "Party Hopper"
+#   date: 9/6/2018
+#   intro: intro1
+#   md_path: "assets/content/blogs/utah_1st_prototype2_ILavaUnicorn"
+#   md_name: "content.md"
+#   img_path: ""
+#   img_name: "cover.jpg"
+#   tags: ["portfolio", "prototype", "game"]
+  # https://drive.google.com/drive/folders/1qhn54RpLHnObgntHpLQLknhotrsUFzaX?ogsrc=32
+  
+
+
