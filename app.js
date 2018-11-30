@@ -38,7 +38,7 @@ var walkSync = function(dir, filelist) {
 var blog_yaml_list = walkSync("assets/content/blogs");
 var blog_list = [];
 var blog_list_from_file;
-console.log(blog_yaml_list);
+//console.log(blog_yaml_list);
 for (var i = 0; i < blog_yaml_list.length; i++) {
     blog_list_from_file = [];
     try {
@@ -51,7 +51,7 @@ for (var i = 0; i < blog_yaml_list.length; i++) {
 const default_md_path = "assets/content/blogs/"
 const default_img_path = "assets/img/"
 var blogRender = [];
-console.log(blog_list);
+//console.log(blog_list);
 for (var i = 0; i < blog_list.length; i++) {
     var md_path = blog_list[i].md_path? blog_list[i].md_path : default_md_path;
     blog_list[i].md_path = path.join(md_path, blog_list[i].md_name);
@@ -64,21 +64,21 @@ for (var i = 0; i < blog_list.length; i++) {
     let text = fs.readFileSync(blog_list[i].md_path).toString();
     let html = converter.makeHtml(text);
     blogRender[i] = function (req, res) {
-        console.log(html);
+      //  console.log(html);
         res.render(path.join(__dirname+'/src/blog'), {
             additional_css: '<link rel="stylesheet" type="text/css" href="/assets/css/blog.css">',
             blog_content: html,
         });
     }
     blog_list[i].url = '/blog/' + encodeURI(blog_list[i].title.split(" ").join("")); //
-    console.log(blog_list[i].url);
+   // console.log(blog_list[i].url);
     app.get(blog_list[i].url, blogRender[i]);
 }
 
 function portfolioRender(req,res){
     //console.log(path.join(__dirname + '/src/portfolio.ejs'));
     var html = 0;
-    console.log(blog_list);
+    //console.log(blog_list);
     res.render(path.join(__dirname + '/src/portfolio'), {
         bloglist: blog_list,
     });
