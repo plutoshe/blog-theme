@@ -14,6 +14,7 @@ function aboutRender(req,res){
     let html = converter.makeHtml(text);
     //res.render(path.join(__dirname + '/src/about'));
     res.render(path.join(__dirname + '/src/about'), {
+        additional_css: '<link rel="stylesheet" type="text/css" href="/assets/css/blog.css">',
         content: html,
     });
 }
