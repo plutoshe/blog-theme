@@ -20,6 +20,17 @@
     transition: 0.3s;
     box-align: left;
 }
+.container {
+    color: blue;
+    margin-top:20px;
+    text-decoration: none;
+    transition: 0.3s;
+    display: block;
+    
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
 
 .sidenav .menu_item:hover {
     color: #f1f1f1;
