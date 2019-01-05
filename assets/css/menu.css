@@ -11,7 +11,7 @@
     padding-top: 60px;
 }
 
-.sidenav a {
+.sidenav .menu_item {
     padding: 8px 0px 8px 0px;
     text-decoration: none;
     font-size: 0.85rem;
@@ -21,7 +21,7 @@
     box-align: left;
 }
 
-.sidenav a:hover {
+.sidenav .menu_item:hover {
     color: #f1f1f1;
 }
 
@@ -34,4 +34,23 @@ nav h2 {
     color: #fff;
     border-bottom: 1px solid #fff;
     line-height: 50px;
+}
+
+
+.sidenav a.share_icon{
+    color: white;
+    font-size: 32px;
+}
+
+
+.sidenav a.share_icon:hover{
+  color: red;
+}
+
+.sidenav h4 {
+    font-family: 'Titillium Web','Helvetica Neue',Helvetica,sans-serif;
+    font-style: normal;
+    font-size: 0.85rem;
+    color: white;
+    font-weight: 400;
 }

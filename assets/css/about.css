@@ -2,3 +2,17 @@
     color: #770077;
     text-align: center;
 }
+
+body {
+	background-color: #ffffff;
+}
+
+#main a.share_icon{
+	color: red;
+}
+
+/*
+a.share_icon:hover {
+  color: hotpink;
+}*/
+
