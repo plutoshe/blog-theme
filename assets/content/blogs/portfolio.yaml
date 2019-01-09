@@ -1,3 +1,19 @@
+# - title: 
+#   date: 
+#   intro: 
+#   md_path: "assets/content/blogs/utah_1st_prototype4_Satat'sShootingRange"
+#   md_name: "content.md"
+#   img_path: "assets/content/blogs/utah_1st_prototype4_Satat'sShootingRange"
+#   img_name: "cover.png"
+#   tags: ["portfolio", "prototype", "game"]
+- title: "Booster Bitch fwb"
+  date: 12/14/2018
+  intro: Friends with Benefits Edition is playable on a Windows computer with an XBOX controller, using Unreal Engine 4. Twitch integration is used for the MVB voting system. Possible Twitch Chat inputs are “Becky,” “Trixi,” “Candi,” and “Heather” (NOT case-sensitive). 
+  md_path: "assets/content/blogs/utah_1st_prototype4_Satat'sShootingRange"
+  md_name: "content.md"
+  img_path: "assets/content/blogs/utah_1st_prototype5_BoosterBitchfwb"
+  img_name: "cover.png"
+  tags: ["portfolio", "prototype", "game"]
 - title: "Satat's Shooting Range"  
   date: 11/6/2018
   intro: Satet’s Shooting Range is an Egyption-themed shooting-gallery game where you defend against waves of enemies with bow and arrows in VR.

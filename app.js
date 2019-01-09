@@ -46,13 +46,13 @@ for (var i = 0; i < blog_yaml_list.length; i++) {
         blog_list_from_file = yaml.parse(fs.readFileSync(blog_yaml_list[i], 'utf8'));
     } catch(err) {
     } finally {
-        blog_list = blog_list.concat(blog_list_from_file);
+        if (blog_list_from_file != null)
+            blog_list = blog_list.concat(blog_list_from_file);
     }
 }
 const default_md_path = "assets/content/blogs/"
 const default_img_path = "assets/img/"
 var blogRender = [];
-//console.log(blog_list);
 for (var i = 0; i < blog_list.length; i++) {
     var md_path = blog_list[i].md_path? blog_list[i].md_path : default_md_path;
     blog_list[i].md_path = path.join(md_path, blog_list[i].md_name);
