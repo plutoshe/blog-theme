@@ -10,9 +10,9 @@
 <!--<aside id="sidebar" class="open"> -->
 <% include modules/menu.ejs %>
 
-<div id="main" class="has_menu">
+<div id="main" class="has_menu flex_container">
     <% include modules/pageHeader.ejs %>
-    <div class="row" id="portfolio">
+    <div class="row flex_body" id="portfolio">
         <% for (var i = 0; i < bloglist.length; i++) { %>
           <div class="column cars">
             <a href="<%- bloglist[i].url%>" >
@@ -25,31 +25,13 @@
           </div>
         <% } %>
     </div>
+    <% include modules/footer.ejs %>
      
     <!-- END GRID -->
     
 </div>    
 
-<div class="footer-main-div">
-  <div class="footer-social-icons">
-    <ul>
-        <li><a href="https://www.youtube.com/channel/UC5EYmOjErzAfH8RlAWN7qBA?view_as=subscriber"><i class="fa fa-youtube-play"></i></a></li>
-      <li><a href="http://github.com/plutoshe"><i class="fa fa-github"></i></a></li>
-      <li><a href="https://twitter.com/plutoshe"><i class="fa fa-twitter"></i></a></li>      
-    </ul>
-    
-    
-  </div>
-  <div class="footer-menu-one">
-      <ul> 
-        <li><a class="menu_item" href="/portfolio">Portfolio</a></li> 
-        <li><a class="menu_item" href="/about">About</a></li> 
-      </ul> 
-  </div>
-  <div class="footer-bottom">
-    <p>Copyright © 2019 <a href="/">Pluto She</a>. All Rights Reserved.</p>
-  </div>
-</div>
+  
 
 </body>
 </html>

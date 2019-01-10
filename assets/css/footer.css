@@ -4,7 +4,7 @@
     height: auto;
     margin: auto;
     background: #272727;
-    padding: 20px 0px;
+    padding: 10px 0px 0px 0px;
 }
 
 .footer-main-div *{
@@ -96,7 +96,7 @@
     font-size: 14px;
     text-align: center;
     color: #fff;
-    font-weight: 200;
+    font-weight: 200 
     letter-spacing: 0.5px;
 }
 .footer-bottom p a{
@@ -105,3 +105,4 @@
 .footer-bottom p a:hover {
     color: rgba(89, 37, 211, 0.349);
 }
+
