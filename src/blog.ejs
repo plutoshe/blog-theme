@@ -4,16 +4,18 @@
     <% include deps/header.ejs %>
     <%- additional_css %>
 </head>
-<body>
+<body class="page_body">
     <% include deps/includeJs.ejs %>
     <% include modules/menu.ejs %>
-    <div id="main" class="has_menu">
+    
+    <div id="main" class="has_menu flex_container">
         <% include modules/pageHeader.ejs %>
-        <div class = "blog">
+        <div class = "blog flex-body">
             <div class = "blog_body">
-                <%- blog_content %>
+                <%- blog_content %>http://localhost:3000/portfolio
             </div>
         </div>
+        <% include modules/footer.ejs %>
     </div>
 </body>
-</html> 
+</html>

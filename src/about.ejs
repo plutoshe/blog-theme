@@ -7,22 +7,14 @@
 <body class="page_body">
     <% include deps/includeJs.ejs %>
     <% include modules/menu.ejs %>
-    <div id="overlay" class=""></div>
-    <div id="main" class="has_menu">
+    <div id="main" class="has_menu flex_container">
         <% include modules/pageHeader.ejs %>
-        <div class = "blog">
+        <div class = "blog flex_body">
             <div class = "blog_body">
                 <%- content %>
             </div>
         </div>
+        <% include modules/footer.ejs %>
     </div>
-    
-    <!-- <div class="container">
-        <a class="share_icon" href="http://github.com/plutoshe"><i class="fa fa-github"></i></a>
-        <a class="share_icon" href="https://twitter.com/plutoshe"><i class="fa fa-twitter"></i></a>
-        <a class="share_icon" href="https://www.youtube.com/channel/UC5EYmOjErzAfH8RlAWN7qBA?view_as=subscriber"><i class="fa fa-youtube-play"></i></a>
-    
-        
-    </div> -->
 </body>
 </html>
