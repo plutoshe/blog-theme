@@ -8,21 +8,37 @@
     <% include deps/includeJs.ejs %>
     <% include modules/menu.ejs %>
     <div id="overlay" class=""></div>
-    <div id="main" class="has_menu">
+    <div id="main" class="has_menu flex_container" style="display:flex">
         <% include modules/pageHeader.ejs %>
-        <div class = "blog">
+        <div class = "blog flex_body">
             <div class = "blog_body">
                 <%- content %>
             </div>
         </div>
+        <div class="footer-main-div flex_footer">
+                <div class="footer-social-icons">
+                  <ul>
+                      <li><a href="https://www.youtube.com/channel/UC5EYmOjErzAfH8RlAWN7qBA?view_as=subscriber"><i class="fa fa-youtube-play"></i></a></li>
+                    <li><a href="http://github.com/plutoshe"><i class="fa fa-github"></i></a></li>
+                    <li><a href="https://twitter.com/plutoshe"><i class="fa fa-twitter"></i></a></li>      
+                  </ul>
+                  
+                  
+                </div>
+                
+                <div class="footer-menu-one">
+                    <ul> 
+                      <li><a class="menu_item" href="/portfolio">Portfolio</a></li> 
+                      <li><a class="menu_item" href="/about">About</a></li> 
+                    </ul> 
+                </div>
+                <div class="footer-bottom">
+                  <p>Copyright © 2019 <a href="/">Pluto She</a>. All Rights Reserved.</p>
+                </div>
     </div>
     
-    <!-- <div class="container">
-        <a class="share_icon" href="http://github.com/plutoshe"><i class="fa fa-github"></i></a>
-        <a class="share_icon" href="https://twitter.com/plutoshe"><i class="fa fa-twitter"></i></a>
-        <a class="share_icon" href="https://www.youtube.com/channel/UC5EYmOjErzAfH8RlAWN7qBA?view_as=subscriber"><i class="fa fa-youtube-play"></i></a>
+  
     
         
-    </div> -->
 </body>
 </html>
