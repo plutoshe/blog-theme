@@ -1,22 +1,23 @@
-# - title: 
-#   date: 
-#   intro: 
-#   md_path: "assets/content/blogs/utah_1st_prototype4_Satat'sShootingRange"
-#   md_name: "content.md"
-#   img_path: "assets/content/blogs/utah_1st_prototype4_Satat'sShootingRange"
-#   img_name: "cover.png"
-#   tags: ["portfolio", "prototype", "game"]
+# md introduction
+# - title: # your title display
+#   date: # published date
+#   intro: # the backup content show below the title in portfolio page
+#   md_path: # the md path
+#   md_name: # the md name
+#   img_path: # the img path, if it is empty, it will use md_path.
+#   img_name: #
+#   tags: [# the tags this blog belonging to]
 - title: "Booster Bitch fwb"
   date: 12/14/2018
   intro: Friends with Benefits Edition is playable on a Windows computer with an XBOX controller, using Unreal Engine 4. Twitch integration is used for the MVB voting system. Possible Twitch Chat inputs are “Becky,” “Trixi,” “Candi,” and “Heather” (NOT case-sensitive). 
-  md_path: "assets/content/blogs/utah_1st_prototype4_Satat'sShootingRange"
+  md_path: "assets/content/blogs/utah_1st_prototype5_BoosterBitchfwb"
   md_name: "content.md"
   img_path: "assets/content/blogs/utah_1st_prototype5_BoosterBitchfwb"
   img_name: "cover.png"
   tags: ["portfolio", "prototype", "game"]
 - title: "Satat's Shooting Range"  
   date: 11/6/2018
-  intro: Satet’s Shooting Range is an Egyption-themed shooting-gallery game where you defend against waves of enemies with bow and arrows in VR.
+  intro: An Egyption-themed shooting-gallery game where you defend against waves of enemies with bow and arrows in VR.
   md_path: "assets/content/blogs/utah_1st_prototype4_Satat'sShootingRange"
   md_name: "content.md"
   img_path: "assets/content/blogs/utah_1st_prototype4_Satat'sShootingRange"
@@ -25,7 +26,7 @@
   #https://drive.google.com/drive/folders/1a8Q4GDHCBvyAVD3nrlC3TSkdWdzbR0Cb
 - title: "Astrolabe"
   date: 10/16/2018
-  intro: Satet’s Shooting Range is an Egyption-themed shooting-gallery game where you defend against waves of enemies with bow and arrows in VR!
+  intro: An exploration-based game where the player uses their phone to find and match constellations in the night sky.
   md_path: "assets/content/blogs/utah_1st_prototype3_astrolabe"
   md_name: "content.md"
   img_path: "assets/content/blogs/utah_1st_prototype3_astrolabe"
@@ -34,7 +35,7 @@
   # https://drive.google.com/drive/folders/1g-cJrho6wfgViBRZHaccF22jQCcu98tg?usp=sharing
 - title: "I Lava Unicorn"  
   date: 9/25/2018
-  intro: I Lava Unicorn is an arcade style maze game where you build the maze. Dig tunnels, collect unicorn, and then run for you life as lava chases you back through the paths you carved.
+  intro: An arcade style maze game where you build the maze, dig tunnels, collect unicorn, and then run for you life as lava chases you back through the paths you carved.
   md_path: "assets/content/blogs/utah_1st_prototype2_ILavaUnicorn"
   md_name: "content.md"
   img_path: "assets/content/blogs/utah_1st_prototype2_ILavaUnicorn"

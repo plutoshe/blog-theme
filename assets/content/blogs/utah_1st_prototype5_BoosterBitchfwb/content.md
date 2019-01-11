@@ -1,31 +1,28 @@
-##Satet’s Shooting Range
+##Booster Bitch fwb
 
 ###Trailer
-<iframe width="560" height="315" src="https://www.youtube.com/embed/nMo4EV1sZkQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KxDHRWz3QKE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ###Personal Design Details
-- Tech Deps: Unity
+- Tech Deps: Unreal, Twitch RPC request
 - Mechanism
-    - verb: Shoot
-    - Use a bow to shoot continuous approaching enemies
+    - verb: Jump, tail control
+    - Use your jump and the path you make to beat others
 
-- Emotion: Fun & Urgency & Achievement
+- Emotion: Fun & Quick Rythm & Achievement
 
-- Concrete Experience: Face unlimited enemies, master the shooting system to defend yourself
+- Concrete Experience: Interact with audiences, dynamics play to beat others.
 
-- Incentive: The shooting action itself based on VR device, and to achieve the highest point
+- Incentive: The point.
 
 
 ###Contribution
-Implement the animation system, including appearing, disappearing.
+- Connect twitch channel, allowing audiences voting for players.
 
-Develop enemies generating system, avoiding two enemies appearing into one point.
-
-Coordinate with the shooting system.
+- Finish all modules for this 2d arcade game, including multiplayer part, the animation, the map setting, etc.
 
 ###Advancement
-1. The shelter blocking players shooting enemies, and give players an abrupt urgency.
+1. Bugs need fix.
 
-2. Optimize shooting system matching the actions shooting an arrow in reality.
+2. More environment and level design.
 
-3. More animations and assets.
