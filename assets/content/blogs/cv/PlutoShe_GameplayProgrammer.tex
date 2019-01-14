@@ -1,0 +1,212 @@
+% ----------------------------------------------------------------------------------------%
+%	Created by Alessandro with TeXShop						%
+%	---->	May 27, 2009										%
+%	Compiled with XeLaTeX, on Mac OS X						%
+%	Licensed under the Creative Commons Attribution 3.0 Unported	%
+%	Share, change, spread, and have fun!						%
+%	http://creativecommons.org/licenses/by/3.0/					%
+%	You can find more at http://aleplasmati.comuv.com				%
+% ----------------------------------------------------------------------------------------%
+
+\documentclass{article}
+%!TEX encoding = UTF-8
+% See geometry.pdf to learn the layout options. There are lots.
+\usepackage[hmargin=1.25cm, vmargin=1.5cm]{geometry}
+%symbols - the ones you see on the left of the email and of the phone
+\usepackage{bbding}
+\usepackage{amssymb}
+\usepackage{eurosym}
+\usepackage{ifsym}
+%\usepackage{marvosym}
+
+%Colors/Graphics
+\usepackage{color,graphicx}
+\usepackage[usenames,dvipsnames]{xcolor}
+
+%Fonts and Tweaks for XeLaTeX
+%\usepackage{fontspec,xltxtra,xunicode}
+%\defaultfontfeatures{Mapping=tex-text}
+%\setromanfont[Mapping=tex-text]{Hoefler Text}
+%\setsansfont[Scale=MatchLowercase,Mapping=tex-text]{Gill Sans}
+%\setmonofont[Scale=MatchLowercase]{Andale Mono}
+
+%Setup hyperref package, and colours for links, text and headings
+\usepackage{hyperref}
+\definecolor{linkcolour}{HTML}{0000FF}	%light purple link for the email
+\definecolor{shade}{HTML}{D4D7FE}	%light blue shade
+\definecolor{mygrey}{gray}{1}
+\definecolor{text1}{HTML}{2b2b2b}		%text is almost black
+\definecolor{headings}{HTML}{000000} 	%dark red701112
+
+\hypersetup{	colorlinks,breaklinks,
+	urlcolor=linkcolour,
+	linkcolor=linkcolour}
+
+\usepackage{fancyhdr}				%custom footer
+\pagestyle{fancy}
+\fancyhf{}
+%\rfoot{\color{headings} {\sffamily Last update: \today}. Typeset with X\LaTeX}
+\renewcommand{\headrulewidth}{0pt}
+
+\usepackage{titlesec}				%custom \section
+
+%CV Sections inspired by:
+%http://stefano.italians.nl/archives/26
+\titleformat{\section}
+{\color{headings}
+	\scshape\Large\raggedright}{}{0em}{}[\color{black}\titlerule]
+
+\titlespacing{\section}{0pt}{0pt}{5pt}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%% resume starts here
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+	
+	\color{text1} % set text color for the whole doc
+	
+	\par{\centering
+		{\sffamily\huge Software Engineer Intern, Engine: Junfeng She
+		}\\	
+		{\color{headings} \par}
+		{\color{white} \hrule} %does this rule really change anything?
+		
+		\vspace{10pt}
+		
+		\colorbox{mygrey}{\textcolor{text1}{
+				\begin{tabular}{c|c|c}
+					\raisebox{-2pt}{\Phone} (801)413-6344 &
+					\raisebox{-2pt}{\Envelope} ~\href{http://www.plutoshe.com}{http://www.plutoshe.com}	 &	 \raisebox{0pt}{\textbf{@}}
+					~\href{mailto:plutoshe@gmail.com}{plutoshe@gmail.com}
+				\end{tabular}
+			}
+		}
+		\vspace{10pt}
+		
+		\section{Education}
+		\vspace{5pt}
+		Master of Entertainment Arts \& Engineering, \textbf{University of Utah}, Salt Lake City, UT, U.S. \hfill 2018-Expected 2020
+		\vspace{5pt}
+		
+		B.S. of Computer Science, \textbf{Peking University}, Beijing, China \hfill 2011--2015
+		\vspace{10pt}
+		
+		\section{Exprience}
+		\textbf{Research Assistant - \href{http://net.pku.edu.cn/mobile/doku.php?id=eng:start}{Networking lab, School of EECS, Peking University}} \hfill 09/2013--12/2014
+			\begin{itemize}
+				\item Develop Android applications for group's researches, for example, a social platform application to collect user behaviors.
+				\item Attending to design a scalable code to transfer exclusive info for different distance and publish a \href{https://www.eng.yale.edu/wenjun/papers/strata.pdf}{paper} on ACM MobiCom'14.
+			\end{itemize}
+		\textbf{Backend\&Framework Developer - \href{https://naturali.io}{Naturali}} \hfill 02/2015--02/2017
+		\begin{itemize}
+			\item Optimize framework and operators for speech models based on Tensorflow.
+			\item Develop Golang back-end server, based on NSQ \& MongoDB
+		\end{itemize}
+		
+		\section{Projects}
+		\vspace{5pt}
+		\textbf{\href{http://www.plutoshe.com/blog/BoosterBitchfwb}{Booster Bitch fwb}} \hfill \quad
+		
+		\begin{itemize}
+			\item An 2d multi-player platform jump competition game.
+			\item Implement engineering part, including voting system, map system, player's actions, etc.
+			\item Embed twitch interaction into the game, allowing audience voting for players.
+		\end{itemize}
+	
+		\textbf{\href{http://www.plutoshe.com/blog/Satat'sShootingRange}{Satat's Shooting Range}} \hfill \quad
+		
+		\begin{itemize}
+			\item An  Egyptian-themed shooting-gallery game where you defend against waves of enemies with bow and arrows in VR
+			\item Implement the animation system, develop enemy generating system.
+			\item Embed shooting into the game.
+		\end{itemize}
+		
+		
+		\textbf{\href{http://www.plutoshe.com/blog/Astrolabe}{Astrolabe}} \hfill \quad
+		
+		\begin{itemize}
+			\item An exploration-based game where the player uses their phone to find and match constellations in the night sky
+			\item Implement the algorithm for matching the player's focus and targeted constellation.			
+			\item Cooperate to design and embed skybox and constellation designs, animations.	
+			\item Develop voice radar to instruct players.
+			
+
+		\end{itemize}
+		
+		
+		
+		\textbf{\href{http://www.plutoshe.com/blog/ILavaUnicorn}{I Lava Unicorn}} \hfill \quad
+		
+		\begin{itemize}
+			\item An arcade-style maze game where you dig tunnels, collect unicorns, and then run for your life as lava chases you back through the paths you carved.
+			
+			\item Develop the map system based on phaser3, including gradually disappearing block based on the player's movements
+			
+			\item Implement player actions, including movements, attacks, etc.
+			
+		\end{itemize}
+
+		
+		
+		\vspace{10pt}
+		\section{Skills}
+				\hspace{0.3in}
+				
+		\leftline{Languages: C++, C\#, Python, Golang, HTML, CSS, Javascript } 
+				\hspace{0.3in}
+
+		\leftline{Soft Skills: Reading, Communication, Responsibility, Teamwork, Problem Solving, Decisiveness, Negotiation}
+		\hspace{0.3in}
+		\leftline{Tools: Unity, Unreal, Photoshop, Git, Perforce, Bash, Sed, Awk, Regex, Docker}
+		
+	
+		
+		
+		
+		%\vspace{5pt}
+		%\section{Skills}
+		
+		%\leftline{Languages: C++, Python, golang, HTML, CSS, Javascript \hspace{0.3in}Databases: MongoDB, SQL, Redis }
+		%\leftline{Tools: Git, Bash, Sed, Awk, Regex, Docker}
+		
+		
+		
+		
+		
+		
+		
+		% \section{Fellowship and Award}
+		
+		% \textbf{Gold Medal},The ACM-ICPC Asia Regional Contest Tianjin Site \hfill 2012
+		
+		% \vspace{3pt}
+		
+		
+		
+		% \textbf{Third Prize}, Annual Peking University Mathematical Contest in Modeling \hfill 2012
+		
+		% \vspace{3pt}
+		% \textbf{Second Prize}, Annual Peking University Programming Contest \hfill 2013
+		
+		% \vspace{3pt}
+		
+		% \textbf{Social Work Award of Peking University} \hfill 2013
+		
+		
+		% \vspace{5pt}
+		
+		% \section{\textsc{Computer Skills}}
+		
+		% \begin{tabular}{rl}
+		% 	Basic Knowledge: &C++, C, Java, JavaScript, Python, HTML, CSS, SQL, {\LaTeX}\\
+		% 	Tools: &Matlab, MySQL, Final Cut Pro\\
+		% \end{tabular}
+		
+		
+		
+		
+	\end{document}
+	
