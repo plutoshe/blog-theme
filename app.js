@@ -64,9 +64,11 @@ for (var i = 0; i < blog_list.length; i++) {
 for (var i = 0; i < blog_list.length; i++) {
     let text = fs.readFileSync(blog_list[i].md_path).toString();
     let html = converter.makeHtml(text);
+    let blog_title = blog_list[i].title;
     blogRender[i] = function (req, res) {
-        console.log(html);
+        
         res.render(path.join(__dirname+'/src/blog'), {
+            blog_title: blog_title,
             additional_css: '<link rel="stylesheet" type="text/css" href="/assets/css/blog.css">',
             blog_content: html,
         });
