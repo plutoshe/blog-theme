@@ -1,5 +1,6 @@
 ##About
-![Pluto She](assets\content\photo.jpg)
+<img src="assets\content\photo.jpg" alt="Pluto She" width="600" height="400" />
+<!-- ![Pluto She](assets\content\photo.jpg) -->
 
 Pluto She is a developing game developer, currently studying in EAE program at the University of Utah.
 

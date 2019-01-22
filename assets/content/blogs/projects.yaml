@@ -1,0 +1,18 @@
+- title: "Strata"
+# Layered Coding for Scalable Visual Communication
+  date: 12/2014
+  intro: A layered coding scheme for visual communication based on the notion of hierarchical modulation from traditional RF communication.
+  md_path: "assets/content/blogs/strata"
+  md_name: "content.md"
+  img_path: "assets/content/blogs/strata"
+  img_name: "cover3.png"
+  tags: ["project", "paper"]
+
+- title: "Taskgraph"
+  date: 05/2015
+  intro: A fault tolerant, distributed task driven framework.
+  md_path: "assets/content/blogs/taskgraph"
+  md_name: "content.md"
+  img_path: "assets/content/blogs/taskgraph"
+  img_name: "cover.png"
+  tags: ["project"]
