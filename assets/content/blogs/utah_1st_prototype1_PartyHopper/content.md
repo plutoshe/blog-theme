@@ -1,6 +1,6 @@
 ##astrolabe
 
-This prototype aims to provide children a chance to realize how to identify the constellations.
+This prototype aims to provide children a chance to realize how to identify the constellations. And this game mainly focus on providing an experience exploring unknown with curosity.
 
 Title: Satet’s Shooting Range
 Catch Phrase: Satet’s Shooting Range is an Egyption-themed shooting-gallery game where you defend against waves of enemies with bow and arrows in VR!

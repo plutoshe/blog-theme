@@ -50,6 +50,16 @@ for (var i = 0; i < blog_yaml_list.length; i++) {
             blog_list = blog_list.concat(blog_list_from_file);
     }
 }
+for (var i = 0; i < blog_list.length; i++) {
+    if (!blog_list[i].weight)  {
+        blog_list[i].weight = -1;
+    }
+}
+console.log(blog_list);
+blog_list.sort(function(a, b) {
+    return b.weight > a.weight;
+})
+console.log(blog_list);
 const default_md_path = "assets/content/blogs/"
 //const default_img_path = "assets/img/"
 var blogRender = [];
