@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.10.17)  22 JAN 2019 03:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.10.17)  22 JAN 2019 04:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**PlutoShe_GameplayProgrammer.tex
-(./PlutoShe_GameplayProgrammer.tex
+**PlutoShe_GameDesigner.tex
+(./PlutoShe_GameDesigner.tex
 LaTeX2e <2017-04-15>
 Babel <3.10> and hyphenation patterns for 84 language(s) loaded.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/article.cls
@@ -284,8 +284,8 @@ Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \titlewidthlast=\dimen122
 \titlewidthfirst=\dimen123
 )
-(./PlutoShe_GameplayProgrammer.aux)
-\openout1 = `PlutoShe_GameplayProgrammer.aux'.
+(./PlutoShe_GameDesigner.aux)
+\openout1 = `PlutoShe_GameDesigner.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 67.
 LaTeX Font Info:    ... okay on input line 67.
@@ -381,9 +381,9 @@ LaTeX Info: Redefining \ref on input line 67.
 LaTeX Info: Redefining \pageref on input line 67.
 LaTeX Info: Redefining \nameref on input line 67.
 
-(./PlutoShe_GameplayProgrammer.out) (./PlutoShe_GameplayProgrammer.out)
+(./PlutoShe_GameDesigner.out) (./PlutoShe_GameDesigner.out)
 \@outlinefile=\write3
-\openout3 = `PlutoShe_GameplayProgrammer.out'.
+\openout3 = `PlutoShe_GameDesigner.out'.
 
 LaTeX Font Info:    Try loading font information for U+msa on input line 86.
 
@@ -408,19 +408,18 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 100.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 211.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 210.
  [1
 
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 211.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 210.
 
-(./PlutoShe_GameplayProgrammer.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 211.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 211.
-Package rerunfilecheck Info: File `PlutoShe_GameplayProgrammer.out' has not cha
-nged.
+(./PlutoShe_GameDesigner.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 210.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 210.
+Package rerunfilecheck Info: File `PlutoShe_GameDesigner.out' has not changed.
 (rerunfilecheck)             Checksum: 395F5F7103D638966B9EF2E938389799;172.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 211.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 210.
  )
 (\end occurred inside a group at level 1)
 
@@ -428,12 +427,12 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 211.
 ### bottom level 
 Here is how much of TeX's memory you used:
  7170 strings out of 492995
- 103619 string characters out of 6132703
+ 103541 string characters out of 6132703
  202115 words of memory out of 5000000
  10634 multiletter control sequences out of 15000+600000
  7005 words of font info for 28 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 28i,11n,43p,258b,427s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 28i,11n,43p,252b,427s stack positions out of 5000i,500n,10000p,200000b,80000s
  </Users/plutoshe/Library/texlive/2017/texmf-var/fonts/pk/ljfou
 r/public/bbding/bbding10.600pk></usr/local/texlive/2017/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/p
@@ -441,7 +440,7 @@ ublic/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/pub
 lic/amsfonts/cm/cmss17.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmsy10.pfb>
-Output written on PlutoShe_GameplayProgrammer.pdf (1 page, 73121 bytes).
+Output written on PlutoShe_GameDesigner.pdf (1 page, 73087 bytes).
 PDF statistics:
  65 PDF objects out of 1000 (max. 8388607)
  54 compressed objects within 1 object stream
