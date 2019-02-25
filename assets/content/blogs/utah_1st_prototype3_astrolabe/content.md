@@ -5,26 +5,26 @@
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-O3mAQVB_jI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ###Overview
-This prototype aims to trial an experience of exploration. It focus on intriguing the curiosity of audience toward constellations. 
+This prototype aims to trial experiences of exploration. It focuses on intriguing the curiosity of the audience toward constellations.
 
 ###Inspiration
-This prototype mainly gets the inspiration from [the momemt](https://www.youtube.com/watch?v=IP7lqWll_Qw) appearing in the “Assassin's Creed Origins”. It has a great gameplay when finding a certain constellation. And this moment drives us to explore how to advance this expriences.
+This prototype mainly gets the inspiration from [the momemt](https://www.youtube.com/watch?v=IP7lqWll_Qw) appearing in the “Assassin's Creed Origins” which has excellent gameplay when finding a specific constellation. And this moment drives us to explore how to advance this experience.
 
 ###Design Details
-Exploration includes 2 parts, the seeking and the achievement.
+Exploration includes two parts, the seeking, and the achievement.
 
 <img src="/assets/content/blogs/utah_1st_prototype3_astrolabe/Astrolabe2.png" width="60%" height="50%" style="margin:auto"/>
 
-In the seeking phase, in the early stages for beginners, the design needs to make players getting some hints to follow, like mountain in "Journey" and "Zelda", avoiding them getting lost. This game uses the voice radar system which gives the players immediate feedback about their movment of phone. The closer they move towards the targeted constellation, the louder the voice responds. 
+In the seeking phase, in the early stages for beginners, the design needs to make players getting some hints to follow, like the mountain in "Journey" and "Zelda," avoiding them getting lost. This game uses the voice radar system which gives the players immediate feedback about their movement of the phone. The closer they move towards the targeted constellation, the louder the voice responds.
 
 <img src="/assets/content/blogs/utah_1st_prototype3_astrolabe/Astrolabe3.png" width="60%" height="50%" style="margin:auto"/>
 
-In the achievement phase, this prototype uses gradual emergence and final visual/sound effect to enhance the feeling of achievement. Gives audiences several seconds to wait what they achieve in the process, it will amplify what they feel in the game.
+In the achievement phase, this prototype uses gradual emergence and final visual/sound effect to enhance the feeling of achievement. Gives audiences several seconds to wait what they achieve in the process; it will amplify what they feel in the game.
 
 ###Review
-This prototype mainly wants to understand what drives us to explore new things, and make breakthroughs in different phases.
+This prototype mainly wants to understand what drives us to explore new things and make breakthroughs in different phases.
 
-Code can check [here](https://github.com/plutoshe/Astrolabe).
+The code can check [here](https://github.com/plutoshe/Astrolabe).
 
 <!-- This prototype aims to provide children a chance to realize how to identify the constellations. -->
 
