@@ -8,15 +8,23 @@
 This prototype aims to trial an experience of exploration. It focus on intriguing the curiosity of audience toward constellations. 
 
 ###Inspiration
-This prototype mainly gets the inspiration from the momemt appearing in the Assain Origin. It has a great gameplay when finding a certain constellation. And this moment drives us to explore how to mimic this expriences.
+This prototype mainly gets the inspiration from [the momemt](https://www.youtube.com/watch?v=IP7lqWll_Qw) appearing in the “Assassin's Creed Origins”. It has a great gameplay when finding a certain constellation. And this moment drives us to explore how to advance this expriences.
 
 ###Design Details
-Exploration includes 2 part, the seeking and the achievement.
+Exploration includes 2 parts, the seeking and the achievement.
 
-In the seeking phase, in the very beginning phase for the beginners, the design needs to make players getting some hints to following, avoiding them getting lost, like mountain in "Journey" and "Zelda", this game. This game uses the voice radar system which gives the players instant and indirect feedback about their movment. The closer they move towards the targeted constellation, the louder the voice responds. 
+<img src="/assets/content/blogs/utah_1st_prototype3_astrolabe/Astrolabe2.png" width="60%" height="50%" style="margin:auto"/>
 
-In the achievement phase, this prototype use gradual emergence and final visual/sound effect to enhance the feeling of achievement. Gives audiences several seconds to wait what they achieven in the process, it will amplify what they feel in the game and make them surprise.
+In the seeking phase, in the early stages for beginners, the design needs to make players getting some hints to follow, like mountain in "Journey" and "Zelda", avoiding them getting lost. This game uses the voice radar system which gives the players immediate feedback about their movment of phone. The closer they move towards the targeted constellation, the louder the voice responds. 
 
+<img src="/assets/content/blogs/utah_1st_prototype3_astrolabe/Astrolabe3.png" width="60%" height="50%" style="margin:auto"/>
+
+In the achievement phase, this prototype uses gradual emergence and final visual/sound effect to enhance the feeling of achievement. Gives audiences several seconds to wait what they achieve in the process, it will amplify what they feel in the game.
+
+###Review
+This prototype mainly wants to understand what drives us to explore new things, and make breakthroughs in different phases.
+
+Code can check [here](https://github.com/plutoshe/Astrolabe).
 
 <!-- This prototype aims to provide children a chance to realize how to identify the constellations. -->
 

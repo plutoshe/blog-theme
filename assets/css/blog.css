@@ -1,5 +1,5 @@
 .blog body {
- font-family: "Microsoft Yahei", Helvetica, arial, sans-serif ;
+ font-family: "Microsoft Yahei", Helvetica, arial, sans-serif;
   font-size: 14px;
   line-height: 1.6;
   padding-top: 10px;
@@ -316,4 +316,7 @@ color: #516272;}
 
 .blog_body {
     padding: 20px 60px 20px 60px;
+    /* width: 60%; */
+    max-width: 978px;
+    margin: auto;
 }
