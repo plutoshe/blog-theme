@@ -6,9 +6,9 @@ var fs       = require("fs");
 var yaml     = require('yaml')
 var protobuf = require("protobufjs");
 var showdown = require('showdown');
-
+var debtPlugin = require("./js/debt")
 var converter = new showdown.Converter();
-
+const bodyParser = require('body-parser');
 function aboutRender(req,res){
     let text = fs.readFileSync("assets/content/about.md").toString();
     let html = converter.makeHtml(text);
@@ -99,15 +99,19 @@ function portfolioRender(req,res){
     //ejs.renderFi
 }
 
-
+app.use(express.urlencoded())
 app.get('/', portfolioRender);
+app.get('/plugin/debt', debtPlugin.render);
+app.post('/plugin/debt/data', debtPlugin.dataPost);
 app.get('/portfolio', portfolioRender);
 app.get('/about', aboutRender);
 
 app.use("/assets", express.static(__dirname+"/assets"));
 app.use("/src", express.static(__dirname+"/src"));
 app.engine('.html', require('ejs').__express);
+
 app.set("view engine","ejs");
+
 //app.set('view engine', 'html');
 app.listen(3000);
 
