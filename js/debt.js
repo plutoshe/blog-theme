@@ -1,7 +1,7 @@
 var fs = require('fs');
 var defaultJsonName = 'debt.json';
 var defaultNameList = ["Jim", "Anglela", "Pluto"];
-var currentDebtList = { "sum":[0,0,0], "datalist":[]}
+var currentDebtList = { "sum":[0,0,0], "datalist":[]};
 function loadDebtList(filename) {
 	fs.readFile(filename, 'utf8', function readFileCallback(err, data){
 	    if (err){
@@ -20,6 +20,8 @@ function saveDebtList(currentDebtList, filename) {
     });
 }
 loadDebtList(defaultJsonName);
+if (!defaultJsonName)
+	currentDebtList = { "sum":[0,0,0], "datalist":[]};
 //currentDebtList =loadDebtList(defaultJsonName);
 
 //currentDebtList.loadFromJson(defaultJsonName);
