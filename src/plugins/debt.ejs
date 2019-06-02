@@ -15,6 +15,11 @@
 
 <div id="showDebt" class="tabcontent" style="display:none">
   <h3>债务清单</h3>
+
+<p>统计数据<br>
+	Jim: <%- debtlist.sum[0];%><br>
+	Anglela: <%- debtlist.sum[1];%><br>
+	Pluto: <%- debtlist.sum[2];%><br></p>
   <table style="width:50%" border="1">
   	<tr>
   		<th style="text-align:left">Jim</th>
@@ -22,12 +27,12 @@
   		<th style="text-align:left">Pluto</th>
   		<th style="text-align:left">说明</th>
   	</tr>
-  <% for (var i = 0; i < debtlist.length; i++) { %>
+  <% for (var i = debtlist.datalist.length - 1; i >= 0; i--) { %>
 	<tr>
-    	<td><%- debtlist[i].value[0];%></th>
-    	<td><%- debtlist[i].value[1];%></th>
-    	<td><%- debtlist[i].value[2];%></th>
-    	<td><%- debtlist[i].comment;%></th>
+    	<td><%- debtlist.datalist[i].value[0];%></th>
+    	<td><%- debtlist.datalist[i].value[1];%></th>
+    	<td><%- debtlist.datalist[i].value[2];%></th>
+    	<td><%- debtlist.datalist[i].comment;%></th>
   	</tr>
   <% } %>
   </table>

@@ -1,7 +1,7 @@
 var fs = require('fs');
 var defaultJsonName = 'debt.json';
 var defaultNameList = ["Jim", "Anglela", "Pluto"];
-var currentDebtList = []
+var currentDebtList = { "sum":[0,0,0], "datalist":[]}
 function loadDebtList(filename) {
 	fs.readFile(filename, 'utf8', function readFileCallback(err, data){
 	    if (err){
@@ -33,7 +33,9 @@ function renderDebt(req,res) {
         debtlist: currentDebtList,
     });
 }
-
+function strip(number, precision) {
+    return (parseFloat(number).toPrecision(precision));
+}
 
 function addNewDebt(req,res) {
 	console.log(req.body);
@@ -48,9 +50,18 @@ function addNewDebt(req,res) {
 		var num = req.body.borrow.length;
 		for (var i = 0; i < req.body.borrow.length; i++)
 			debtItem.value[parseInt(req.body.borrow[i], 10)] -= req.body.loanAmount * 1.0 / num;
+		for (var i = 0; i < 3; i++) {
+			// console.log(debtItem.value[i], strip(debtItem.value[i], 4));
+			debtItem.value[i] = 1.0 * strip(debtItem.value[i], 4);
+		}
+		debtItem.value[0] = -(debtItem.value[1] + debtItem.value[2]);
 		
-		currentDebtList.push(debtItem);
-		console.log(currentDebtList);
+		currentDebtList.datalist.push(debtItem);
+		for (var i = 0; i < 3; i++) {
+			currentDebtList.sum[i] += debtItem.value[i];
+		}
+		console.log(debtItem);
+		// console.log(currentDebtList);
 		//res.redirect('back');
 		saveDebtList(currentDebtList, defaultJsonName);
 		res.sendStatus(200);
