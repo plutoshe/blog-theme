@@ -69,7 +69,7 @@
     	
 	<!-- <input type="submit" value="Submit"onclick="aaa()"> -->
   </form> 
-  <button id="提交" onclick="aaa()">aa</button>
+  <button id="提交" onclick="aaa()">提交</button>
   
 </div>
 
@@ -82,11 +82,11 @@
            data: $("#addDebtForm").serialize(), // serializes the form's elements.
            success: function(data)
            {
-               alert("ok"); // show response from the php script.
+               // alert("ok"); // show response from the php script.
                location.reload();
            },
            failed: function(data) {
-           	alert("no");
+           	// alert("no");
            }
          }); 
 	}
