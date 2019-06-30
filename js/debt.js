@@ -2,6 +2,15 @@ var fs = require('fs');
 var defaultJsonName = 'debt.json';
 var defaultNameList = ["Jim", "Anglela", "Pluto"];
 var currentDebtList = { "sum":[0,0,0], "datalist":[]};
+
+var defaultCommentOption = [
+"星期一早车费","星期一晚车费",
+"星期二早车费","星期二晚车费",
+"星期三早车费","星期三晚车费",
+"星期四早车费","星期四晚车费",
+"星期五早车费","星期五晚车费",
+"星期六早车费","星期六晚车费"];
+
 function loadDebtList(filename) {
 	fs.readFile(filename, 'utf8', function readFileCallback(err, data){
 	    if (err){
@@ -33,7 +42,10 @@ function renderDebt(req,res) {
     console.log(__dirname + '/../src/plugins/debt');
     res.render(path.join(__dirname + '/../src/plugins/debt'), {
         debtlist: currentDebtList,
+        comment_option: defaultCommentOption,
     });
+    console.log(currentDebtList);
+    console.log(defaultCommentOption);
 }
 function strip(number, precision) {
     return (parseFloat(number).toPrecision(precision));
@@ -42,6 +54,9 @@ function strip(number, precision) {
 function addNewDebt(req,res) {
 	console.log(req.body);
 	//res.status(200);
+	console.log(req.body.lend);
+	console.log(req.body.borrow);
+	console.log(req.body.loanAmount);
 	if (req.body.lend && req.body.borrow && req.body.loanAmount) {
 		
 		var debtItem = {

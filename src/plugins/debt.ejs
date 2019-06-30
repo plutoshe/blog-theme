@@ -35,6 +35,7 @@
     	<td><%- debtlist.datalist[i].comment;%></th>
   	</tr>
   <% } %>
+
   </table>
 </div>
 
@@ -59,17 +60,22 @@
 	<p>说明</p> 
     <input type="text" name="comment" size="50">
     <br>
-    
+    <% for (var i = 0; i < comment_option.length; i++) { %>
+    	<input type="radio" name="commentOption" value="<%= comment_option[i] %>" >
+    	<%= comment_option[i] %>
+    	
+  	<% }%>
+  		<input type="radio" name="commentOption" value="" checked>其他</input>
+    	
 	<!-- <input type="submit" value="Submit"onclick="aaa()"> -->
   </form> 
-  <button id="aaa" onclick="aaa()">aa</button>
+  <button id="提交" onclick="aaa()">aa</button>
   
 </div>
 
 
 <script>
 	function aaa() {
-		console.log("ggg");
 		$.ajax({
            type: "POST",
            url: "debt/data",
@@ -84,23 +90,38 @@
            }
          }); 
 	}
+	function setComment() {
+		//console.log($("input[name=commentOption]"));
+		//console.log($("input[name='commentOption']"));
+		console.log($('input[name=comment]'));
+		//$('input[name=comment]').val("1");
+		$("input[name=commentOption]").on('click', function() {
+		//	alert(this.value);
+
+			$('input[name=comment]').val(this.value);
+		});
+	}
+
+	function init() {
+		setComment();
+		// alert("!!!");
+	}
+	$("document").ready(init());
 
 
-
-
-function openCity(evt, cityName) {
-  var i, tabcontent, tablinks;
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("tablinks");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" active", "");
-  }
-  document.getElementById(cityName).style.display = "block";
-  evt.currentTarget.className += " active";
-}
+	function openCity(evt, cityName) {
+	  var i, tabcontent, tablinks;
+	  tabcontent = document.getElementsByClassName("tabcontent");
+	  for (i = 0; i < tabcontent.length; i++) {
+	    tabcontent[i].style.display = "none";
+	  }
+	  tablinks = document.getElementsByClassName("tablinks");
+	  for (i = 0; i < tablinks.length; i++) {
+	    tablinks[i].className = tablinks[i].className.replace(" active", "");
+	  }
+	  document.getElementById(cityName).style.display = "block";
+	  evt.currentTarget.className += " active";
+	}
 </script>
   
 
