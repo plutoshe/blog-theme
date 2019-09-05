@@ -87,13 +87,20 @@ for (var i = 0; i < blog_list.length; i++) {
    // console.log(blog_list[i].url);
     app.get(blog_list[i].url, blogRender[i]);
 }
+portfolio_list = []
+for (var i = 0; i < blog_list.length; i++) {
+    if (blog_list[i].tags && blog_list[i].tags.indexOf("portfolio") > -1)
+    {
+        portfolio_list.push(blog_list[i]);
+    }
+}
 
 function portfolioRender(req,res){
     //console.log(path.join(__dirname + '/src/portfolio.ejs'));
     var html = 0;
     //console.log(blog_list);
     res.render(path.join(__dirname + '/src/portfolio'), {
-        bloglist: blog_list,
+        bloglist: portfolio_list,
     });
     
     //ejs.renderFi

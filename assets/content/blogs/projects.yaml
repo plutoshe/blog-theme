@@ -6,7 +6,7 @@
   md_name: "content.md"
   img_path: "assets/content/blogs/strata"
   img_name: "cover3.png"
-  tags: ["project", "paper"]
+  tags: ["portfolio", "project", "paper"]
   weight: 4
 
 # - title: "Taskgraph"

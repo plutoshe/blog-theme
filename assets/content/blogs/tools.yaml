@@ -6,4 +6,4 @@
   img_path: "assets/content/blogs/pattern_tool"
   img_name: "cover.png"
   weight: 5
-  tags: ["tool"]
+  tags: ["portfolio", "tool"]
