@@ -1,4 +1,4 @@
-### Assignment 2 Summarization
+## Assignment 2 Summarization
 Get executable file [here](http://www.plutoshe.com/assets/download/Assignment2_MyGame_.zip)
 #### Application screenshoot
 Show the screenshoot of application
