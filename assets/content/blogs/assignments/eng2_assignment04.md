@@ -17,7 +17,7 @@ Get project file [here](http://www.plutoshe.com/assets/download/Assignment4_MyGa
 The interface define in the following code
 
 ```
-    void SetBackgroundColor(std::vector<float> backgroundColor);
+    void SetBackgroundColor(float i_colorR, float i_colorG, float i_colorB, float i_colorA);
 ```
 
 This game bind key I with the background color change.
@@ -25,11 +25,11 @@ This game bind key I with the background color change.
 ```
 	if (UserInput::IsKeyPressed(UserInput::KeyCodes::I))
 	{
-		SetBackgroundColor(std::vector<float>{1.0f, 0.f, 0.f, 1.f});
+		SetBackgroundColor(0.5f, 0.0f, 0.5f, 1.f);
 	}
 	else
 	{
-		SetBackgroundColor(std::vector<float>{1.0f, 1.f, 0.f, 1.f});
+		SetBackgroundColor(0.7f, 0.7f, 0.7f, 1.f);
 	}
 ```
 
@@ -83,3 +83,7 @@ Comparing to the results of last assignment, it only add a short variable to sto
 On x86, It will cost 144 bytes for constantData_frame, 16 bytes for m_backgroundColor, 16 bytes for m_renderObjects per frame structure, therefore, it totally cost 166 * 2 = 332 bytes for total budgets memory.
 
 On x64, It will cost 144 bytes for constantData_frame, 32 bytes for m_backgroundColor, 32 bytes for m_renderObjects per frame structure, therefore, it totally cost 208 * 2 = 416 bytes for total budgets memory.
+
+#### The time spending on the assignment
+
+I nearly spent 10 hours on this assignment, especially 5 hours working on making the reference increment/decrement safe.
