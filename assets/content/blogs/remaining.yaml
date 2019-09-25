@@ -18,3 +18,9 @@
   md_name: "eng2_assignment04.md"
   img_path: "assets/content/"
   img_name: "photo.jpg"
+- title: "eng2_assignment5"
+  md_path: "assets/content/blogs/assignments"
+  md_name: "eng2_assignment05.md"
+  img_path: "assets/content/"
+  img_name: "photo.jpg"
+
