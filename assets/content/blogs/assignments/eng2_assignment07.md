@@ -17,8 +17,9 @@ No projects depends on MayaGeometryExporter, because this project only generates
 I didn't add any extra data to my human-readable file, because I think it's too hard for human to calculate these data(normal, tangents, bitangents) for vertices and they could be calculated late automatically. In addition, users currently don't care about the result of these data.
 
 #### Screenshoot for the application
+
 <img src="http://www.plutoshe.com/assets/content/blogs/assignments/eng2_assignment07_02.png" width="50%" height="50%" style="margin:auto"/>
 
 #### What happens if you try to load a model with too many vertices
 
-I tried loading a data with 1 million vertices, there is nothing special instead of taking several seconds to load vertices data. 
+when you load too many vertices, it will not load correct model because of the limitation of the index scope.
