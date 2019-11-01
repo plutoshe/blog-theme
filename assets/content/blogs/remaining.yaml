@@ -43,4 +43,10 @@
   md_name: "eng2_assignment09.md"
   img_path: "assets/content/"
   img_name: "photo.jpg"
+- title: "project1_proposal"
+  md_path: "assets/content/blogs/assignments"
+  md_name: "project1_proposal.md"
+  img_path: "assets/content/"
+  img_name: "photo.jpg"
+  
 
