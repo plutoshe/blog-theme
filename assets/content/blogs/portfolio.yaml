@@ -7,6 +7,16 @@
 #   img_path: # the img path, if it is empty, it will use md_path.
 #   img_name: #
 #   tags: [# the tags this blog belonging to]
+
+- title: "GameEngine"
+  date: 01/01/2019
+  intro: An Flip bird game based on own game engine from scratch.
+  md_path: "assets/content/blogs/GameEngine"
+  md_name: "content.md"
+  img_path: "assets/content/blogs/GameEngine"
+  img_name: "GameEngineRecord.gif"
+  tags: ["portfolio", "prototype", "game"]
+  weight: 5
 - title: "Astrolabe"
   date: 10/16/2018
   intro: An exploration-based game where the player uses their phone to find and match constellations in the night sky.
