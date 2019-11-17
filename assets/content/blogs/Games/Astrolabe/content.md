@@ -1,13 +1,20 @@
-##Astrolabe
+## Astrolabe
 
-###Trailer
+### Introduction
+Astrolabe is an moblie game where players rotate their phone to match the constellation on the sky, and then collect correponding constellation. 
+
 <!-- [![Astrolabe](https://img.youtube.com/vi/-O3mAQVB_jI/0.jpg)](https://www.youtube.com/watch?v=-O3mAQVB_jI) -->
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-O3mAQVB_jI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-###Overview
-This prototype aims to trial experiences of exploration. It focuses on intriguing the curiosity of the audience toward constellations.
+### Highlight
+Use Gyro sensor tracking player's focus.
+The algorithm about matching the player's focus and targeted constellation
+Rader voice system to direct player to where the matched constellation is.
+Gradual animation to amplify the feeling of gaining constellation
 
-###Inspiration
+
+
+<!-- ###Inspiration
 This prototype mainly gets the inspiration from [the momemt](https://www.youtube.com/watch?v=IP7lqWll_Qw) appearing in the “Assassin's Creed Origins” which has excellent gameplay when finding a specific constellation. And this moment drives us to explore how to advance this experience.
 
 ###Design Details
@@ -24,7 +31,7 @@ In the achievement phase, this prototype uses gradual emergence and final visual
 ###Review
 This prototype mainly wants to understand what drives us to explore new things and make breakthroughs in different phases.
 
-The code can check [here](https://github.com/plutoshe/Astrolabe).
+The code can check [here](https://github.com/plutoshe/Astrolabe). -->
 
 <!-- This prototype aims to provide children a chance to realize how to identify the constellations. -->
 
