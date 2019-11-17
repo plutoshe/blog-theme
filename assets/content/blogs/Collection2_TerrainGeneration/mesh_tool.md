@@ -10,9 +10,8 @@ Currently, the first version that I've done is reconstructing the faces after co
 The project aiming to generate desired terrain based on the combination of different mesh, leviate how people design complex terrain.
 
 Keyword:
-3D Math
-Mesh difference and union
-Mesh smooth
+
+3D Math, Mesh difference and union, Mesh smooth
 
 #### Mesh Combination
 The idea behind this step is to deleting faces except surface after combining two meshs, it will enable future mesh combination and  help late smooth algorithm, getting rid of the influence of unnecessay faces the combined mesh have.

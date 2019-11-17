@@ -1,8 +1,9 @@
 ## Visual Effects
 
-This collection 
+Here is a list of what I have implemented as a part of effect.
+
 ### Posts
-Fish Flck Effect
+Fish Flock Effect
 Fog Effect
 Volumetirc Cloud Effect(On going)
 
