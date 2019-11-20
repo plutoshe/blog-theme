@@ -18,10 +18,10 @@ class Collider
     Collider(const Collider& i_v);
     Collider(std::string i_path);
 
-    bool IsCollided(Collider& i_B);
-    Vector3 Center();
-    void UpdateTransformation(eae6320::Math::cMatrix_transformation i_t)
     eae6320::cResult InitData(std::string i_path);;
+    void UpdateTransformation(eae6320::Math::cMatrix_transformation i_t);
+    Vector3 Center();
+    bool IsCollided(Collider& i_B);
 }
 ```
 
@@ -30,18 +30,17 @@ In addition, according to that a gameobject can have more than one collider, the
 ```cpp
 class ColliderList
 {
-    ColliderList() {}
+    ColliderList();
     ColliderList(const Collider& i_c);
     ColliderList(const ColliderList& i_c);
 
-    void ClearAllCollider() { m_colliders.clear(); }
-    void AddCollider(Collider i_c) { m_colliders.push_back(i_c); }
-    size_t GetSize() { return m_colliders.size();  }
-    Collider GetColliderByIndex(int i_index) { return m_colliders[i_index]; }
-    bool IsCollided(ColliderList &i_cl);
+    void ClearAllCollider();
+    void AddCollider(Collider i_c);
+    size_t GetSize();
+    Collider GetColliderByIndex(int i_index);
+    bool IsCollided(ColliderList& i_queryColliderList);
     void UpdateTransformation(eae6320::Math::cMatrix_transformation i_t);
-
-};
+}
 ```
 
 Also, I create a collider builder for integrating the collider you want, this is what a collider file would look like

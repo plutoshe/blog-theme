@@ -1,9 +1,0 @@
-- title: "Pattern Generator"
-  date: 03/2019
-  intro: A tool devising pattern map for a music game
-  md_path: "assets/content/blogs/pattern_tool"
-  md_name: "content.md"
-  img_path: "assets/content/blogs/pattern_tool"
-  img_name: "cover.png"
-  weight: 5
-  tags: ["portfolio", "tool"]

@@ -11,18 +11,18 @@
 - title: "GameEngine"
   date: 01/01/2019
   intro: An Flip bird game based on own game engine from scratch.
-  md_path: "assets/content/blogs/GameEngine"
+  md_path: "assets/content/blogs/Collection1_PhysicsSimulation/GameEngine"
   md_name: "content.md"
-  img_path: "assets/content/blogs/GameEngine"
+  img_path: "assets/content/blogs/Collection1_PhysicsSimulation/GameEngine"
   img_name: "GameEngineRecord.gif"
   tags: ["portfolio", "prototype", "game"]
   weight: 5
 - title: "Astrolabe"
   date: 10/16/2018
   intro: An exploration-based game where the player uses their phone to find and match constellations in the night sky.
-  md_path: "assets/content/blogs/utah_1st_prototype3_astrolabe"
+  md_path: "assets/content/blogs/Games/Astrolabe"
   md_name: "content.md"
-  img_path: "assets/content/blogs/utah_1st_prototype3_astrolabe"
+  img_path: "assets/content/blogs/Games/Astrolabe"
   img_name: "cover.png"
   tags: ["portfolio", "prototype", "game"]
   weight: 5
@@ -30,18 +30,18 @@
 - title: "Booster Bitch fwb"
   date: 12/14/2018
   intro: Friends with Benefits Edition is playable on a Windows computer with an XBOX controller, using Unreal Engine 4. Twitch integration is used for the MVB voting system. Possible Twitch Chat inputs are “Becky,” “Trixi,” “Candi,” and “Heather” (NOT case-sensitive). 
-  md_path: "assets/content/blogs/utah_1st_prototype5_BoosterBitchfwb"
+  md_path: "assets/content/blogs/Games/BoosterBitchfwb"
   md_name: "content.md"
-  img_path: "assets/content/blogs/utah_1st_prototype5_BoosterBitchfwb"
+  img_path: "assets/content/blogs/Games/BoosterBitchfwb"
   img_name: "cover.png"
   tags: ["portfolio", "prototype", "game"]
   weight: 3
 - title: "Satat's Shooting Range"  
   date: 11/6/2018
   intro: An Egyption-themed shooting-gallery game where you defend against waves of enemies with bow and arrows in VR.
-  md_path: "assets/content/blogs/utah_1st_prototype4_Satat'sShootingRange"
+  md_path: "assets/content/blogs/Games/Satat'sShootingRange"
   md_name: "content.md"
-  img_path: "assets/content/blogs/utah_1st_prototype4_Satat'sShootingRange"
+  img_path: "assets/content/blogs/Games/Satat'sShootingRange"
   img_name: "cover.png"
   tags: ["portfolio", "prototype", "game"]
   weight: 2
@@ -50,9 +50,9 @@
 - title: "I Lava Unicorn"  
   date: 9/25/2018
   intro: An arcade style maze game where you build the maze, dig tunnels, collect unicorn, and then run for you life as lava chases you back through the paths you carved.
-  md_path: "assets/content/blogs/utah_1st_prototype2_ILavaUnicorn"
+  md_path: "assets/content/blogs/Games/ILavaUnicorn"
   md_name: "content.md"
-  img_path: "assets/content/blogs/utah_1st_prototype2_ILavaUnicorn"
+  img_path: "assets/content/blogs/Games/ILavaUnicorn"
   img_name: "cover1.png"
   tags: ["portfolio", "prototype", "game"]
   # https://drive.google.com/drive/folders/1D2CjT5MT3gMYJzMhGZRjugoTHo7n0Vkc
@@ -66,5 +66,6 @@
 #   tags: ["portfolio", "prototype", "game"]
   # https://drive.google.com/drive/folders/1qhn54RpLHnObgntHpLQLknhotrsUFzaX?ogsrc=32
   
+
 
 
