@@ -58,5 +58,10 @@
   md_name: "project1_update2.md"
   img_path: "assets/content/"
   img_name: "photo.jpg"
+- title: "project1_writeup"
+  md_path: "assets/content/blogs/assignments"
+  md_name: "project1_writeup.md"
+  img_path: "assets/content/"
+  img_name: "photo.jpg"
   
 
