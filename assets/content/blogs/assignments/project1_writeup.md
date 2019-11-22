@@ -96,8 +96,14 @@ YouCollideList.AddCollider(PlutoShe::Physics::Collider(vertices));
 
 ### Future development
 
-I still add collision response to this library, I will update it after finishing this part.
+I am still adding collision response to this library, I will update it after finishing this part.
+
+### What I struggled with and what I learned
+
+I mainly struggled with the algorithm to determine two polyhedrons are collided or not. Through learning various collision algorithm, I have deeper understanding toward the 3d math and algebra.
+
+However, after implementing the collision, I was stuck at how colliders react to each other. I Wanted to use Impulse-based contact model, but I found my situations weren't match because there were not only one point collided with two collider. By searching related source, I found a method named Constraint Based Physics. I am still implementing it on my library.
 
 ### Source Code 
 
-Source code get from [here](http://www.plutoshe.com/assets/download/Eng2Project1SourceCode.zip)
+Get Source code version 1.0 from [here](http://www.plutoshe.com/assets/download/Eng2Project1SourceCode.zip)
