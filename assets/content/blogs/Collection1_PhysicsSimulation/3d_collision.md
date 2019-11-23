@@ -1,5 +1,9 @@
 ## 3D Collistion Detection
 
+### Result
+
+<img src="http://www.plutoshe.com/assets/content/blogs/assignments/project1_updat1_01.gif" width="50%" height="50%" style="margin:auto"/><img src="http://www.plutoshe.com/assets/content/blogs/assignments/project1_updat2_01.gif" width="50%" height="50%" style="margin:auto"/>
+
 ### Introduction
 
 In previous posts, I stick to two-dimensional physics simulations. After implementing tools about the mesh, I had a deeper understanding of principles on three dimensions and started to investigate how to do 3d collision. 
@@ -7,10 +11,6 @@ In previous posts, I stick to two-dimensional physics simulations. After impleme
 This post mainly discusses how to determine whether colliders collide or not.
 
 There are several algorithms for collision detection. Here, I mainly introduce Brute Force Method, Gilbert-Johnson-Keerthi Algorithm, and the broad phase of collision detection.
-
-### Result
-
-<img src="http://www.plutoshe.com/assets/content/blogs/assignments/project1_updat1_01.gif" width="50%" height="50%" style="margin:auto"/><img src="http://www.plutoshe.com/assets/content/blogs/assignments/project1_updat2_01.gif" width="50%" height="50%" style="margin:auto"/>
 
 ### Brute Force Algorithm
 
@@ -82,3 +82,8 @@ The idea behind this is to exclude impossible collisions by a faster algorithm. 
 Another way is by using the KD tree.  Every time to query a collider, it cost ```O(logn)```.
 
 In terms of performance, the construction of KD tree will cost ```O(n * log(n))```, so if the times comparing collider is less than ```log(n)```, it is better to use bounding box method, otherwise, KD tree is better way to use in the broad phase collision detection.
+
+### Reference
+
+http://www.dyn4j.org/category/gamedev/collision-detection
+https://en.wikipedia.org/wiki/Minkowski_addition
