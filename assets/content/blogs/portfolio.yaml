@@ -36,15 +36,6 @@
   tags: ["portfolio", "GameDev"]
   weight: 5
 
-- title: "GameEngine"
-  date: 01/01/2019
-  intro: An Flip bird game based on own game engine from scratch.
-  md_path: "assets/content/blogs/Collection1_PhysicsSimulation/GameEngine"
-  md_name: "content.md"
-  img_path: "assets/content/blogs/Collection1_PhysicsSimulation/GameEngine"
-  img_name: "GameEngineRecord.gif"
-  tags: ["GameDev"]
-  weight: 5
 - title: "Astrolabe"
   date: 10/16/2018
   intro: An exploration-based game where the player uses their phone to find and match constellations in the night sky.

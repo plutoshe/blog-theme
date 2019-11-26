@@ -1,0 +1,35 @@
+- title: "3DCollisionResponse"
+  date: 01/01/2019
+  md_path: "assets/content/blogs/Collection1_PhysicsSimulation"
+  md_name: "3d_collision_response.md"
+  img_path: "assets/content/blogs/Collection1_PhysicsSimulation"
+  img_name: "3d_collision_1.png"
+  tags: ["GameDev"]
+  weight: 5
+
+- title: "3DCollisionDetection"
+  date: 01/01/2019
+  md_path: "assets/content/blogs/Collection1_PhysicsSimulation"
+  md_name: "3d_collision.md"
+  img_path: "assets/content/blogs/Collection1_PhysicsSimulation"
+  img_name: "3d_collision_1.png"
+  tags: ["GameDev"]
+  weight: 5
+
+- title: "2DVoxelRigidBodySimulation"
+  date: 01/01/2019
+  md_path: "assets/content/blogs/Collection1_PhysicsSimulation"
+  md_name: "2d_rigidbody.md"
+  img_path: "assets/content/blogs/Collection1_PhysicsSimulation"
+  img_name: "3d_collision_1.png"
+  tags: ["GameDev"]
+  weight: 5
+
+- title: "2DCollisionGameEngine"
+  date: 01/01/2019
+  md_path: "assets/content/blogs/Collection1_PhysicsSimulation/GameEngine"
+  md_name: "content.md"
+  img_path: "assets/content/blogs/Collection1_PhysicsSimulation/GameEngine"
+  img_name: "GameEngineRecord.gif"
+  tags: ["GameDev"]
+  weight: 5

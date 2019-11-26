@@ -45,21 +45,21 @@ As the brute force algorithm mentioned, there is a point of A would be contained
 
 I mainly discuss the first condition.
 
-Let's assume this point as <b>a</b>, and ```a∈A```.
+Let's assume this point as <b>a</b>, and <b>a∈A</b>.
 
 <img src="http://www.plutoshe.com/assets/content/blogs/Collection1_PhysicsSimulation/3d_collision_1.png" width="50%" height="50%" style="margin:auto"/>
 
 If <b>a</b> is inside the <b>B</b>, the Minkowski Sum of <b>a</b> and <b>-B</b> will contain the origin. In other words, the Minkowski Sum of <b>a</b> and <b>-B</b> represents how points of origin point reflection of <b>B</b> look like in the axis whose origin is <b>a</b>. 
 
-It is same if <b>A</b> contains a point of <b>B</b>. The Minkowski Sum of <b>A</b> and <b>b</b>,```b∈B```, will represents how points of A look like in the axis whose origin is a point of <b>B</b>.
+It is same if <b>A</b> contains a point of <b>B</b>. The Minkowski Sum of <b>A</b> and <b>b</b>,<b>b∈B</b>, will represents how points of A look like in the axis whose origin is a point of <b>B</b>.
 
 Therefore, if there is a collision, the origin must be included in the CSO.
 
-Conversely, if the origin is inside the CSO, there must exists a point <b>a</b> that origin is contained by the Minkowski Sum of <b>a</b> and <b>-B</b>(or <b>b</b> is inside <b>A</b>). It could be equally proved by if there is no Minkowski Sum of <b>a</b> and <b>B</b> contains origin(no collision), CSO would not include the origin. 
+Conversely, if the origin is inside the CSO, there must exists a point <b>a</b> that origin is contained by the Minkowski Sum of <b>a</b> and <b>-B</b>(or <b>b</b> is inside <b>A</b>). It could be equally proved by if there is no Minkowski Sum of <b>a</b> and <b>B</b> contains origin(no collision), CSO would not include the origin.
 
 According to Separating Axis Theorem, we know, "If two convex objects are not penetrating, there exists an axis for which the projection of the objects will not overlap." In three dimensions, there is a common plane that could divide the origin and CSO. Therefore, the origin would not be included in the CSO.
 
-The prove is same for the condition that <b>A</b> contains a point <b>b</b>, ```b∈B```.
+The prove is same for the condition that <b>A</b> contains a point <b>b</b>, <b>b∈B</b>.
 
 One advantage of GJK is that it is not necessary to calculate the CSO; we only need to know whether the CSO encloses origin or not. The convex hull of CSO is called Simplex.
 
@@ -79,12 +79,12 @@ The steps are simple, and I list as following.
 
 The idea behind this is to exclude impossible collisions by a faster algorithm. The classic method is Bounding Box, using a limited box to embrace the collider, and examine the axis intersection.
 
-Another way is by using the KD tree.  Every time to query a collider, it cost ```O(logn)```.
+Another way is by using the KD tree.  Every time to query a collider, it cost <b>O(logn)</b>.
 
-In terms of performance, the construction of KD tree will cost ```O(n * log(n))```, so if the times comparing collider is less than ```log(n)```, it is better to use bounding box method, otherwise, KD tree is better way to use in the broad phase collision detection.
+In terms of performance, the construction of KD tree will cost <b>O(n * log(n))</b>, so if the times comparing collider is less than <b>log(n)</b> it is better to use bounding box method, otherwise, KD tree is better way to use in the broad phase collision detection.
 
 ### Reference
 
-http://www.dyn4j.org/category/gamedev/collision-detection
+<http://www.dyn4j.org/category/gamedev/collision-detection>
 
-https://en.wikipedia.org/wiki/Minkowski_addition
+<https://en.wikipedia.org/wiki/Minkowski_addition>
