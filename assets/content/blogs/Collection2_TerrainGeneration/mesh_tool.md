@@ -3,7 +3,8 @@
 ### Introduction
 
 This project is inspired by the mesh tool implementd by ABZU developer, it will automatically smooth the steep conversion after meshs combination. 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-O3mAQVB_jI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/l9NX06mvp2E?t=846" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Currently, the first version that I've done is reconstructing the faces after combining meshs, and implement several smooth algorithms.
 

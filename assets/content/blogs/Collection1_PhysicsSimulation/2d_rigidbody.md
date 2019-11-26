@@ -14,7 +14,7 @@ This method speeds up collision detection time between rigidbodies.
 
 ### Space Division And GPU Texture based Storage
 
-<img src="http://www.plutoshe.com/assets/content/blogs/Collection1_PhysicsSimulation/3d_collision_1.png" width="50%" height="50%" style="margin:auto"/>
+<img src="http://www.plutoshe.com/assets/content/blogs/Collection1_PhysicsSimulation/2d_rigidbody_1.png" width="50%" height="50%" style="margin:auto"/>
 
 Currently, I only tackle the 2-dimensional situaton and divided the whole two-dimensional space and rigidbody into pixel-based cells. 
 

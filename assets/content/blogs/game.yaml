@@ -1,0 +1,56 @@
+- title: "ArchiTac"
+  date: 10/16/2018
+  intro: An top-down building and exploration game
+  md_path: "assets/content/blogs/Games/ArchiTac"
+  md_name: "ArchiTac.md"
+  img_path: "assets/content/blogs/Games/ArchiTac"
+  img_name: "poster.png"
+  tags: ["portfolio", "prototype", "Game"]
+  weight: 5
+- title: "TheFinalFunktier"
+  date: 10/16/2018
+  intro: An alternative controller ryhthm game
+  md_path: "assets/content/blogs/Games/TheFinalFunktier"
+  md_name: "TheFinalFunktier.md"
+  img_path: "assets/content/blogs/Games/TheFinalFunktier"
+  img_name: "title_screen_slide.png"
+  tags: ["portfolio", "prototype", "Game"]
+  weight: 5
+- title: "Astrolabe"
+  date: 10/16/2018
+  intro: An exploration-based game where the player uses their phone to find and match constellations in the night sky.
+  md_path: "assets/content/blogs/Games/Astrolabe"
+  md_name: "content.md"
+  img_path: "assets/content/blogs/Games/Astrolabe"
+  img_name: "cover.png"
+  tags: ["portfolio", "prototype", "Game"]
+  weight: 5
+  # https://drive.google.com/drive/folders/1g-cJrho6wfgViBRZHaccF22jQCcu98tg?usp=sharing
+- title: "Booster Bitch fwb"
+  date: 12/14/2018
+  intro: Friends with Benefits Edition is playable on a Windows computer with an XBOX controller, using Unreal Engine 4. Twitch integration is used for the MVB voting system. Possible Twitch Chat inputs are “Becky,” “Trixi,” “Candi,” and “Heather” (NOT case-sensitive). 
+  md_path: "assets/content/blogs/Games/BoosterBitchfwb"
+  md_name: "content.md"
+  img_path: "assets/content/blogs/Games/BoosterBitchfwb"
+  img_name: "cover.png"
+  tags: ["portfolio", "prototype", "Game"]
+  weight: 3
+# - title: "Satat's Shooting Range"  
+#   date: 11/6/2018
+#   intro: An Egyption-themed shooting-gallery game where you defend against waves of enemies with bow and arrows in VR.
+#   md_path: "assets/content/blogs/Games/Satat'sShootingRange"
+#   md_name: "content.md"
+#   img_path: "assets/content/blogs/Games/Satat'sShootingRange"
+#   img_name: "cover.png"
+#   tags: ["portfolio", "prototype", "Game"]
+#   weight: 2
+#   #https://drive.google.com/drive/folders/1a8Q4GDHCBvyAVD3nrlC3TSkdWdzbR0Cb
+
+# - title: "I Lava Unicorn"  
+#   date: 9/25/2018
+#   intro: An arcade style maze game where you build the maze, dig tunnels, collect unicorn, and then run for you life as lava chases you back through the paths you carved.
+#   md_path: "assets/content/blogs/Games/ILavaUnicorn"
+#   md_name: "content.md"
+#   img_path: "assets/content/blogs/Games/ILavaUnicorn"
+#   img_name: "cover1.png"
+#   tags: ["portfolio", "prototype", "game"]

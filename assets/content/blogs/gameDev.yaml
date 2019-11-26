@@ -1,3 +1,21 @@
+- title: "FishFlock"
+  date: 01/01/2019
+  md_path: "assets/content/blogs/Collection3_Effect/FishFlock"
+  md_name: "fish_flock.md"
+  img_path: "assets/content/blogs/Collection2_TerrainGeneration"
+  img_name: "MeshTool_1.png"
+  tags: ["GameDev"]
+  weight: 5
+
+- title: "TerrainGenerationTool"
+  date: 01/01/2019
+  md_path: "assets/content/blogs/Collection2_TerrainGeneration"
+  md_name: "mesh_tool.md"
+  img_path: "assets/content/blogs/Collection2_TerrainGeneration"
+  img_name: "MeshTool_1.png"
+  tags: ["GameDev"]
+  weight: 5
+
 - title: "3DCollisionResponse"
   date: 01/01/2019
   md_path: "assets/content/blogs/Collection1_PhysicsSimulation"

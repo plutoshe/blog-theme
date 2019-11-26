@@ -1,15 +1,21 @@
 ## Astrolabe
 
 ### Introduction
+
+<iframe width="800" height="600" src="https://www.youtube.com/embed/-O3mAQVB_jI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 Astrolabe is an moblie game where players rotate their phone to match the constellation on the sky, and then collect correponding constellation. 
 
 <!-- [![Astrolabe](https://img.youtube.com/vi/-O3mAQVB_jI/0.jpg)](https://www.youtube.com/watch?v=-O3mAQVB_jI) -->
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-O3mAQVB_jI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Highlight
+### Technical Highlights
+
 Use Gyro sensor tracking player's focus.
+
 The algorithm about matching the player's focus and targeted constellation
+
 Rader voice system to direct player to where the matched constellation is.
+
 Gradual animation to amplify the feeling of gaining constellation
 
 

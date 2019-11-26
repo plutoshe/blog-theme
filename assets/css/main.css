@@ -86,7 +86,8 @@ a {
 }
 
 .column .content img {
-    
+    /* clip-path: polygon(0 50%, 100% 50%, 100% 100%, 0% 100%); */
+    overflow: hidden;
     width: 100%;
 /*    height: 30vh;*/
     margin: 0 auto;
