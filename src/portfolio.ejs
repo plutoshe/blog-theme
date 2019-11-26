@@ -13,19 +13,39 @@
 
 <div id="main" class="has_menu flex_container">
     <% include modules/pageHeader.ejs %>
-    <div class="row flex_body" id="portfolio">
-        <% for (var i = 0; i < bloglist.length; i++) { %>
+    
+    <div class="row flex_body" class="portfolio">
+        
+        
+        
+        <div style="width:100%;left:0;"><h3 style="padding-top: 20px;color:white">Game Tech Development</h3></div> <br></br>
+        
+        <% for (var i = 0; i < gameDevBloglist.length; i++) { %>
           <div class="column cars">
-            <a href="<%- bloglist[i].url%>" >
+            <a href="<%- gameDevBloglist[i].url%>" >
               <div class="content">
-              <img src="<%- bloglist[i].img_path %>" alt="Car" style="width:100%">
-                <h4 style="padding-top: 20px"><%- bloglist[i].title %></h4>
-                <p><%- bloglist[i].intro %></p>
+              <img src="<%- gameDevBloglist[i].img_path %>" alt="Car" style="width:100%">
+                <h4 style="padding-top: 20px"><%- gameDevBloglist[i].title %></h4>
+                <p><%- gameDevBloglist[i].intro %></p>
+              </div>
+            </a>
+          </div>
+        <% } %>
+        <div style="width:100%;left:0;"><h3 style="padding-top: 20px;color:white">Game</h3></div> <br></br>
+        
+        <% for (var i = 0; i < gameBlogList.length; i++) { %>
+          <div class="column cars">
+            <a href="<%- gameBlogList[i].url%>" >
+              <div class="content">
+              <img src="<%- gameBlogList[i].img_path %>" alt="Car" style="width:100%">
+                <h4 style="padding-top: 20px"><%- gameBlogList[i].title %></h4>
+                <p><%- gameBlogList[i].intro %></p>
               </div>
             </a>
           </div>
         <% } %>
     </div>
+   
     <% include modules/footer.ejs %>
      
     <!-- END GRID -->

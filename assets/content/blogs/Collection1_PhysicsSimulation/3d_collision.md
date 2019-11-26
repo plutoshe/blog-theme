@@ -22,7 +22,7 @@ To determine the point is in a collider, we generally check the number of inters
 
 ### Gilbert-Johnson-Keerthi
 
-GJK only applies for convex objects collision dectection and relies heavily on a concept called the Minkowski Sum. 
+GJK only applies for convex objects collision detection and relies heavily on a concept called the Minkowski Sum. 
 
 Minkowski Sum of two sets of position vectors <b>A</b> and <b>B</b> is formed by adding each vector in <b>A</b> to each vector in <b>B</b>. 
 
@@ -33,7 +33,7 @@ For GJK, we use the Minkowski Sum of A and -B
 
 ```A - B = {a – b|a∈A, b∈B}```
 
-I will refer it as Configuration Space Object(CSO) for clarity sake.
+I will refer it as Configuration Space Object(CSO) for the clarity sake.
 
 If two shapes are overlapping, CSO will contain the origin.
 
@@ -69,7 +69,7 @@ The steps are simple, and I list as following.
 
 <img src="http://www.plutoshe.com/assets/content/blogs/Collection1_PhysicsSimulation/3d_collision_2.png" width="50%" height="50%" style="margin:auto"/>
 
-1. Get the tetrahedron by points of support functions of four directions. One direction is assigned, one is the reverse by the first one, the third one is perpendicular direction of the line of previous two points calculated, the last one is the normal of plane constructed by three points we calculated. Let's define this tetrahedron as <b>S</b>.
+1. Get the tetrahedron by points of support functions of four directions. One direction is assigned, one is the reverse by the first one, the third one is the perpendicular direction of the line of previous two points calculated, the last one is the normal of plane constructed by three points we calculated. Let's define this tetrahedron as <b>S</b>.
 2. If the origin is all inside 4 faces of <b>S</b>,  origin is enclosed by <b>S</b>, then return.
 3. Get the face of which origin is outside.
 4. Get farthest point by support function on the normal of the face.
@@ -86,4 +86,5 @@ In terms of performance, the construction of KD tree will cost ```O(n * log(n))`
 ### Reference
 
 http://www.dyn4j.org/category/gamedev/collision-detection
+
 https://en.wikipedia.org/wiki/Minkowski_addition

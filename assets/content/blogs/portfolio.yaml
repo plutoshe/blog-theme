@@ -7,6 +7,34 @@
 #   img_path: # the img path, if it is empty, it will use md_path.
 #   img_name: #
 #   tags: [# the tags this blog belonging to]
+- title: "Physical Simulation"
+  date: 01/01/2019
+  md_path: "assets/content/blogs/Collection1_PhysicsSimulation"
+  md_name: "physical_simulation.md"
+  img_path: "assets/content/blogs/Collection1_PhysicsSimulation"
+  img_name: "3d_collision_1.png"
+  tags: ["portfolio", "GameDev"]
+  weight: 5
+
+- title: "Visual Effect"
+  date: 01/01/2019
+  md_path: "assets/content/blogs/Collection3_Effect"
+  md_name: "effect.md"
+  # img_path: "assets/content/blogs/Collection3_Effect"
+  # img_name: "MeshTool_2.png"
+  img_path: "assets/content/blogs/Games/ILavaUnicorn"
+  img_name: "cover1.png"
+  tags: ["portfolio", "GameDev"]
+  weight: 5
+
+- title: "Terrain Generation"
+  date: 01/01/2019
+  md_path: "assets/content/blogs/Collection2_TerrainGeneration"
+  md_name: "terrain_generation.md"
+  img_path: "assets/content/blogs/Collection2_TerrainGeneration"
+  img_name: "MeshTool_2.png"
+  tags: ["portfolio", "GameDev"]
+  weight: 5
 
 - title: "GameEngine"
   date: 01/01/2019
@@ -15,7 +43,7 @@
   md_name: "content.md"
   img_path: "assets/content/blogs/Collection1_PhysicsSimulation/GameEngine"
   img_name: "GameEngineRecord.gif"
-  tags: ["portfolio", "prototype", "game"]
+  tags: ["GameDev"]
   weight: 5
 - title: "Astrolabe"
   date: 10/16/2018
@@ -24,7 +52,7 @@
   md_name: "content.md"
   img_path: "assets/content/blogs/Games/Astrolabe"
   img_name: "cover.png"
-  tags: ["portfolio", "prototype", "game"]
+  tags: ["portfolio", "prototype", "Game"]
   weight: 5
   # https://drive.google.com/drive/folders/1g-cJrho6wfgViBRZHaccF22jQCcu98tg?usp=sharing
 - title: "Booster Bitch fwb"
@@ -34,7 +62,7 @@
   md_name: "content.md"
   img_path: "assets/content/blogs/Games/BoosterBitchfwb"
   img_name: "cover.png"
-  tags: ["portfolio", "prototype", "game"]
+  tags: ["portfolio", "prototype", "Game"]
   weight: 3
 - title: "Satat's Shooting Range"  
   date: 11/6/2018
@@ -43,7 +71,7 @@
   md_name: "content.md"
   img_path: "assets/content/blogs/Games/Satat'sShootingRange"
   img_name: "cover.png"
-  tags: ["portfolio", "prototype", "game"]
+  tags: ["portfolio", "prototype", "Game"]
   weight: 2
   #https://drive.google.com/drive/folders/1a8Q4GDHCBvyAVD3nrlC3TSkdWdzbR0Cb
 

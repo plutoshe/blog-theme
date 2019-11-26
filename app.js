@@ -87,11 +87,19 @@ for (var i = 0; i < blog_list.length; i++) {
    // console.log(blog_list[i].url);
     app.get(blog_list[i].url, blogRender[i]);
 }
-portfolio_list = []
+portfolio_list = {"Game":[], "GameDev":[]}
 for (var i = 0; i < blog_list.length; i++) {
     if (blog_list[i].tags && blog_list[i].tags.indexOf("portfolio") > -1)
     {
-        portfolio_list.push(blog_list[i]);
+        if (blog_list[i].tags.indexOf("GameDev") > -1)
+        {
+            portfolio_list["GameDev"].push(blog_list[i]);
+        }
+        if (blog_list[i].tags.indexOf("Game") > -1)
+        {
+            portfolio_list["Game"].push(blog_list[i]);
+        }
+        
     }
 }
 
@@ -100,7 +108,8 @@ function portfolioRender(req,res){
     var html = 0;
     //console.log(blog_list);
     res.render(path.join(__dirname + '/src/portfolio'), {
-        bloglist: portfolio_list,
+        gameDevBloglist: portfolio_list["GameDev"],
+        gameBlogList:  portfolio_list["Game"],
     });
     
     //ejs.renderFi
