@@ -63,5 +63,10 @@
   md_name: "project1_writeup.md"
   img_path: "assets/content/"
   img_name: "photo.jpg"
+- title: "finalproject_update1"
+  md_path: "assets/content/blogs/assignments"
+  md_name: "eng2_finalProject1.md"
+  img_path: "assets/content/"
+  img_name: "photo.jpg"
   
 
