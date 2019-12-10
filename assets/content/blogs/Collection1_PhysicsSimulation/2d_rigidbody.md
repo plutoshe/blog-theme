@@ -2,6 +2,8 @@
 
 ### Result
 
+<img src="/assets/content/blogs/Collection1_PhysicsSimulation/2d_rigidbody.gif" width="50%" height="50%" style="margin:auto"/>
+
 ### Introduction
 
 I mainly implemented a 2d rigid-body physics collision based on the 3d voxel division method. The primary reference is Chapter 29 of "GPU Gem 3", [" Real-Time Rigid Body Simulation on GPUs"](https://developer.nvidia.com/gpugems/GPUGems3/gpugems3_ch29.html). 
@@ -14,7 +16,7 @@ This method speeds up collision detection time between rigidbodies.
 
 ### Space Division And GPU Texture based Storage
 
-<img src="http://www.plutoshe.com/assets/content/blogs/Collection1_PhysicsSimulation/2d_rigidbody_1.png" width="50%" height="50%" style="margin:auto"/>
+<img src="/assets/content/blogs/Collection1_PhysicsSimulation/2d_rigidbody_1.jpg" width="50%" height="50%" style="margin:auto"/>
 
 Currently, I only tackle the 2-dimensional situaton and divided the whole two-dimensional space and rigidbody into pixel-based cells. 
 
@@ -46,8 +48,8 @@ The collision response part is introduced in this [post](http://www.plutoshe.com
 
 ### Reference
 
-https://developer.nvidia.com/gpugems/GPUGems3/gpugems3_ch29.html
+<https://developer.nvidia.com/gpugems/GPUGems3/gpugems3_ch29.html>
 
-https://threejs.org/
+<https://threejs.org/>
 
-https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API
+<https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API>

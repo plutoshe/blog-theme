@@ -8,11 +8,11 @@ The ultimate target of this collection is to find a viable way simulating the ph
 
 3D Collision Response(On Going) ( <b>[Post](3DCollisionResponse) [CodeBase](https://github.com/plutoshe/3DCollision) </b>)
 
-3D collision Detection ( <b>[Post](3DCollisionDetection) [CodeBase](https://github.com/plutoshe/3DCollision) </b>)
+3D Collision Detection ( <b>[Post](3DCollisionDetection) [CodeBase](https://github.com/plutoshe/3DCollision) </b>)
 
-Voxel based rigidbody simulation ( <b>[Post](2DVoxelRigidBodySimulation) [CodeBase](https://github.com/plutoshe/2DRigidbodySimulation) </b>)
+Voxel Based Rigidbody Simulation ( <b>[Post](2DVoxelRigidBodySimulation) [CodeBase](https://github.com/plutoshe/2DRigidbodySimulation) </b>)
 
-GPU-based Fluid simulation (<b> [Result](http://www.plutoshe.com/assets/content/blogs/assignments/eng2_assignment03_updateBackground.png) [CodeBase](https://github.com/plutoshe/VisualEffects/tree/master/VisualEffects/StableFluidQt) </b>)
+GPU-based Fluid Simulation (<b> [Result](../assets/content/blogs/Collection1_PhysicsSimulation/stablefluid1.gif) [CodeBase](https://github.com/plutoshe/VisualEffects/tree/master/VisualEffects/StableFluidQt) </b>)
 
 2D Collision and Relating Game based on Engine from scratch ( <b>[Post](2DCollisionGameEngine) [CodeBase](https://github.com/plutoshe/GameEngine) </b>)
 

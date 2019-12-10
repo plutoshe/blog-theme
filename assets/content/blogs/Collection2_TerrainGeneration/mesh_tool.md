@@ -1,4 +1,10 @@
 ## Terrain Generation Tool
+### Result
+<img src="/assets/content/blogs/Collection2_TerrainGeneration/MeshTool_2.png" width="33%" height="33%"  style="margin:auto"/><img src="/assets/content/blogs/Collection2_TerrainGeneration/MeshTool_3.png" width="33%" height="33%" /><img src="/assets/content/blogs/Collection2_TerrainGeneration/MeshTool_4.png" width="33%" height="33%" />
+
+<img src="/assets/content/blogs/Collection2_TerrainGeneration/MeshTool_5.png" width="33%" height="33%" /><img src="/assets/content/blogs/Collection2_TerrainGeneration/MeshTool_6.png" width="33%" height="33%" /><img src="/assets/content/blogs/Collection2_TerrainGeneration/MeshTool_7.png" width="33%" height="33%" />
+
+<img src="/assets/content/blogs/Collection2_TerrainGeneration/MeshTool_1.png" width="50%" height="50%" />
 
 ### Introduction
 
@@ -15,6 +21,7 @@ Keyword:
 3D Math, Mesh difference and union, Mesh smooth
 
 #### Mesh Combination
+
 The idea behind this step is to deleting faces except surface after combining two meshs, it will enable future mesh combination and  help late smooth algorithm, getting rid of the influence of unnecessay faces the combined mesh have.
 
 At first, to generate the combined faces, the intersected faces need to be divided.
@@ -28,6 +35,8 @@ In order to simplify the situation, we only tackle triangles intersection, becau
 The intersection situation for one mesh will something like following pic,
 
 It will not have the internal point, because it is only surface existing, also, that is why we need to clear the internal faces in this step. 
+
+<img src="/assets/content/blogs/Collection2_TerrainGeneration/MeshTool_ex1.png" width="50%" height="50%" />
 
 So there are three conditions for the two traingle intersection. 
 1. Two points are in the triangle
@@ -69,4 +78,4 @@ The idea of the laplacian it to calculate neighborhood of current points, and th
 
 In addition, the percision of the mesh will affect the smooth performance a lot, therefore, the precision division is required for our application. For every intersection point, we add more points to let the distance of its neighborhood will be less than ceratin number. 
 
-I am still working on such stuff, and it will also generate good effect for the whole model. At present, what I got is something like following. In the future I will smooth it to genretae different effect I want.
+I am still working on such stuff, and it will also generate good effect for the whole model. At present, what I got is something like demonstrating before. In the future I will smooth it to genretae different effect I want.
