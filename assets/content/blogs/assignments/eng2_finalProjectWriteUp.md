@@ -1,6 +1,6 @@
 ### Final Project Writeup
 
-Get the runnable game [here](http://www.plutoshe.com/assets/download/Assignment9_MyGame_.zip)
+Get the runnable game [here](http://www.plutoshe.com/assets/download/final_project.zip)
 
 #### Screenshoot of the game
 
