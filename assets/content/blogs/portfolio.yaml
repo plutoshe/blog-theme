@@ -27,12 +27,12 @@
   tags: ["portfolio", "GameDev"]
   weight: 5
 
-- title: "Terrain Generation"
+- title: "AI Development"
   date: 01/01/2019
-  md_path: "assets/content/blogs/Collection2_TerrainGeneration"
-  md_name: "terrain_generation.md"
-  img_path: "assets/content/blogs/Collection2_TerrainGeneration"
-  img_name: "MeshTool_2.png"
+  md_path: "assets/content/blogs/Collection2_AI"
+  md_name: "ai.md"
+  img_path: "assets/content/blogs/Collection2_AI/FishFlock"
+  img_name: "fishflock.gif"
   tags: ["portfolio", "GameDev"]
   weight: 5
 
