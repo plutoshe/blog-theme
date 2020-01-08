@@ -7,6 +7,8 @@ var yaml     = require('yaml')
 var protobuf = require("protobufjs");
 var showdown = require('showdown');
 var debtPlugin = require("./js/debt")
+var cheerio = require('cheerio')
+
 var converter = new showdown.Converter();
 const bodyParser = require('body-parser');
 function aboutRender(req,res){
@@ -75,6 +77,9 @@ for (var i = 0; i < blog_list.length; i++) {
     let text = fs.readFileSync(blog_list[i].md_path).toString();
     let html = converter.makeHtml(text);
     let blog_title = blog_list[i].title;
+    const parser = cheerio.load(html)
+    var paragraph = parser('p').text();
+    var firstcontent = paragraph.substring(0, 220) + "...";
     blogRender[i] = function (req, res) {
         
         res.render(path.join(__dirname+'/src/blog'), {
@@ -84,6 +89,7 @@ for (var i = 0; i < blog_list.length; i++) {
         });
     }
     blog_list[i].url = '/blog/' + encodeURI(blog_list[i].title.split(" ").join("")); //
+    blog_list[i].firstcontent = firstcontent;
    // console.log(blog_list[i].url);
     app.get(blog_list[i].url, blogRender[i]);
 }
@@ -103,16 +109,23 @@ for (var i = 0; i < blog_list.length; i++) {
     }
 }
 
-function portfolioRender(req,res){
-    //console.log(path.join(__dirname + '/src/portfolio.ejs'));
+function portfolioRender(req,res)
+{
     var html = 0;
-    //console.log(blog_list);
     res.render(path.join(__dirname + '/src/portfolio'), {
         gameDevBloglist: portfolio_list["GameDev"],
         gameBlogList:  portfolio_list["Game"],
     });
-    
-    //ejs.renderFi
+}
+
+function bloglistRender(req, res)
+{
+    // unorder
+    var html = 0;
+    res.render(path.join(__dirname + '/src/blogList'), {
+        bloglist: blog_list,
+    });
+
 }
 
 app.use(express.urlencoded())
@@ -121,6 +134,7 @@ app.get('/plugin/debt', debtPlugin.render);
 app.post('/plugin/debt/data', debtPlugin.dataPost);
 app.get('/portfolio', portfolioRender);
 app.get('/about', aboutRender);
+app.get('/bloglist', bloglistRender);
 
 app.use("/assets", express.static(__dirname+"/assets"));
 app.use("/src", express.static(__dirname+"/src"));

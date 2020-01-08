@@ -6,7 +6,10 @@
   padding-bottom: 10px;
   background-color: white;
   padding: 30px; 
-color: #516272;}
+color:
+
+ #516272;
+}
 
 .blog body > *:first-child {
   margin-top: 0 !important; }

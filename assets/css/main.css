@@ -10,7 +10,7 @@ a {
 }
 
 #main {
-    background: #202020;  
+    background: #fff;  
 }
 
 .has_menu {
@@ -84,7 +84,10 @@ a {
     display: table;
     clear: both;
 }
-
+.portfolio-collection {
+    margin:40px;
+    background-color: #F6F8FA;
+}
 .column .content img {
     /* clip-path: polygon(0 50%, 100% 50%, 100% 100%, 0% 100%); */
     overflow: hidden;
@@ -96,7 +99,7 @@ a {
 }
 
 .content h3,p {
-    color: #fff;
+    color: #000;
 }
 
 /* Content */

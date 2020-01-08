@@ -16,39 +16,43 @@
     
     
     <div class="w3-main w3-content" style="max-width:2800px;margin-top:50px">
-      <div class="w3-row-padding w3-left-align">
-        <!-- <div class="w3-content " style="width:100%;left:0;"> -->
-        <h3 style="padding-top: 20px;color:white">Game Tech Development</h3> <br></br>
-      </div>
-      <!-- First Photo Grid-->
-      <div class="w3-row-padding w3-center" id="GameDev" style="margin-left:30px;margin-right:30px">
-        
-        <% for (var i = 0; i < gameDevBloglist.length; i++) { %>
-          <div class="w3-third content">
-            <a href="<%- gameDevBloglist[i].url%>" >
-            <img src="<%- gameDevBloglist[i].img_path %>" alt="Steak" style="width:100%">
-            <h3 style="padding-top: 20px font-color: white"><%- gameDevBloglist[i].title %></h3>
-            <p><%- gameDevBloglist[i].intro %></p>
-            </a>
-          </div>
-        <% } %>
-      </div>
-      <div class="w3-row-padding w3-left-align">
-        <!-- <div class="w3-content " style="width:100%;left:0;"> -->
-        <h3 style="padding-top: 20px;color:white">Game Projects</h3> <br></br>
-      </div>
-      <div class="w3-row-padding w3-center" id="GameProject" style="margin-left:30px;margin-right:30px">
+      <div class="w3-row-padding portfolio-collection" >
+        <div class="w3-row-padding w3-left-align">
+          <!-- <div class="w3-content " style="width:100%;left:0;"> -->
+          <h3 style="padding-top: 20px;color:black">Game Tech Development</h3> <br></br>
+        </div>
+        <!-- First Photo Grid-->
+        <div class="w3-row-padding w3-center" id="GameDev" style="margin-left:30px;margin-right:30px">
           
-        <% for (var i = 0; i < gameBlogList.length; i++) { %>
-          <div class="w3-third content">
-            <a href="<%- gameBlogList[i].url%>" >
-            <img src="<%- gameBlogList[i].img_path %>" alt="Steak" style="width:100%">
-            <h3 style="padding-top: 20px font-color: white"><%- gameBlogList[i].title %></h3>
-            <p><%- gameBlogList[i].intro %></p>
-            </a>
-          </div>
-          
-        <% } %>
+          <% for (var i = 0; i < gameDevBloglist.length; i++) { %>
+            <div class="w3-third content">
+              <a href="<%- gameDevBloglist[i].url%>" >
+              <img src="<%- gameDevBloglist[i].img_path %>" alt="Steak" style="width:100%">
+              <h3 style="padding-top: 20px; font-color: white"><%- gameDevBloglist[i].title %></h3>
+              <p><%- gameDevBloglist[i].intro %></p>
+              </a>
+            </div>
+          <% } %>
+        </div>
+      </div>
+      <div class="w3-row-padding portfolio-collection" >
+        <div class="w3-row-padding w3-left-align">
+          <!-- <div class="w3-content " style="width:100%;left:0;"> -->
+          <h3 style="padding-top: 20px;color:black">Game Projects</h3> <br></br>
+        </div>
+        <div class="w3-row-padding w3-center" id="GameProject" style="margin-left:30px;margin-right:30px">
+            
+          <% for (var i = 0; i < gameBlogList.length; i++) { %>
+            <div class="w3-third content">
+              <a href="<%- gameBlogList[i].url%>" >
+              <img src="<%- gameBlogList[i].img_path %>" alt="Steak" style="width:100%">
+              <h3 style="padding-top: 20px font-color: white"><%- gameBlogList[i].title %></h3>
+              <p><%- gameBlogList[i].intro %></p>
+              </a>
+            </div>
+            
+          <% } %>
+        </div>
       </div>
       
       <hr>

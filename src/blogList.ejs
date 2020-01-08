@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html>
+
+<header>
+<title>PlutoShe</title>
+<% include deps/header.ejs %>
+</header>
+<body>
+<% include deps/includeJs.ejs %>
+
+<!--<aside id="sidebar" class="open"> -->
+<% include modules/menu.ejs %>
+
+<div id="main" class="has_menu flex_container">
+    <% include modules/pageHeader.ejs %>
+    <div class="w3-main w3-content" style="max-width:1200px;margin-top:50px">
+
+    <!-- Blog entry -->
+        <div class="w3-row">
+            <% for (var i = 0; i < bloglist.length; i++) { %>
+                <div class="w3-card-4 w3-white" style="min-width:600px;margin:40px">
+                
+                    <div class="w3-container">
+                    <h3><b><%- bloglist[i].title %></b></h3>
+                    <!-- <h5> <span class="w3-opacity">April 7, 2014</span></h5> -->
+                    </div>
+                
+                    <div class="w3-container">
+                    <p><%- bloglist[i].firstcontent %></p>
+                    <div class="w3-row">
+                        <div class="w3-col m8 s12">
+                        <p><button class="w3-button w3-padding-large w3-white w3-border"><b>READ MORE »</b></button></p>
+                        </div>
+                
+                    </div>
+                    </div>
+                </div>
+
+            <% } %>   
+        </div>
+    </div>
+   
+    <% include modules/footer.ejs %>
+    
+</div>    
+
+  
+
+</body>
+</html>
