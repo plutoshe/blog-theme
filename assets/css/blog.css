@@ -320,6 +320,9 @@ color:
 .blog_body {
     padding: 20px 60px 20px 60px;
     /* width: 60%; */
-    max-width: 978px;
+    max-width: 1080px;
     margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: #F6F8FA;
 }

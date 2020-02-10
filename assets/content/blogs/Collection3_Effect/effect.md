@@ -8,10 +8,10 @@ Mesh combination and smooth tool ( <b> [Post](TerrainGenerationTool) [CodeBase](
 
 Grass Effect
 
-Sand Effect
+<!-- Sand Effect
 
-Ripple Effect
+Ripple Effect -->
 
 Fog Effect ( <b> Post [CodeBaseForUnity](https://github.com/plutoshe/VisualEffects/tree/master/VisualEffectOnUnity) [CodeBaseForUnreal](https://github.com/plutoshe/VisualEffects/tree/master/VisualEffectOnUnreal)</b>)
 
-Procedural Terrains Generation by GPU ( Planned, mainly by [this article](https://developer.nvidia.com/gpugems/GPUGems3/gpugems3_ch01.html) )
+<!-- Procedural Terrains Generation by GPU ( Planned, mainly by [this article](https://developer.nvidia.com/gpugems/GPUGems3/gpugems3_ch01.html) ) -->

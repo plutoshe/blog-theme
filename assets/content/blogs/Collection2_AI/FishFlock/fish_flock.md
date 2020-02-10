@@ -2,7 +2,7 @@
 
 ### Result
 
-<img src="/assets/content/blogs/Collection3_Effect/FishFlock/fishflock.gif" width="100%" height="100%" style="margin:auto"/>
+<img src="/assets/content/blogs/Collection2_AI/FishFlock/fishflock.gif" width="100%" height="100%" style="margin:auto"/>
 ### Introduction
 
 This post mainly introduce how to generate a fish flock effect.
