@@ -20,5 +20,7 @@ GPU-based Fluid Simulation (<b> [Result](../assets/content/blogs/Collection1_Phy
 
 <!-- ### Results -->
 
+### Results
+<img src="/assets/content/blogs/assignments/eng2_finalproject_result.gif" width="50%" height="50%" style="margin:auto;padding:5px"/><img src="http://www.plutoshe.com/assets/content/blogs/assignments/project1_updat1_01.gif" width="50%" height="50%" style="margin:auto;padding:5px"/><img src="http://www.plutoshe.com/assets/content/blogs/assignments/project1_updat2_01.gif" width="50%" height="50%" style="margin:auto;padding:5px"/><img src="/assets/content/blogs/Collection1_PhysicsSimulation/2d_rigidbody.gif" width="50%" height="50%" style="margin:auto;padding:5px"/>
 
 

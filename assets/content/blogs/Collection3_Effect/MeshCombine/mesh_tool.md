@@ -1,10 +1,10 @@
 ## Terrain Generation Tool
 ### Result
-<img src="/assets/content/blogs/Collection2_TerrainGeneration/MeshTool_2.png" width="33%" height="33%"  style="margin:auto"/><img src="/assets/content/blogs/Collection2_TerrainGeneration/MeshTool_3.png" width="33%" height="33%" /><img src="/assets/content/blogs/Collection2_TerrainGeneration/MeshTool_4.png" width="33%" height="33%" />
+<img src="/assets/content/blogs/Collection3_Effect/MeshCombine/MeshTool_2.png" width="33%" height="33%"  style="margin:auto"/><img src="/assets/content/blogs/Collection3_Effect/MeshCombine/MeshTool_3.png" width="33%" height="33%" /><img src="/assets/content/blogs/Collection3_Effect/MeshCombine/MeshTool_4.png" width="33%" height="33%" />
 
-<img src="/assets/content/blogs/Collection2_TerrainGeneration/MeshTool_5.png" width="33%" height="33%" /><img src="/assets/content/blogs/Collection2_TerrainGeneration/MeshTool_6.png" width="33%" height="33%" /><img src="/assets/content/blogs/Collection2_TerrainGeneration/MeshTool_7.png" width="33%" height="33%" />
+<img src="/assets/content/blogs/Collection3_Effect/MeshCombine/MeshTool_5.png" width="33%" height="33%" /><img src="/assets/content/blogs/Collection3_Effect/MeshCombine/MeshTool_6.png" width="33%" height="33%" /><img src="/assets/content/blogs/Collection3_Effect/MeshCombine/MeshTool_7.png" width="33%" height="33%" />
 
-<img src="/assets/content/blogs/Collection2_TerrainGeneration/MeshTool_1.png" width="50%" height="50%" />
+<img src="/assets/content/blogs/Collection3_Effect/MeshCombine/MeshTool_1.png" width="50%" height="50%" />
 
 ### Introduction
 
@@ -36,7 +36,7 @@ The intersection situation for one mesh will something like following pic,
 
 It will not have the internal point, because it is only surface existing, also, that is why we need to clear the internal faces in this step. 
 
-<img src="/assets/content/blogs/Collection2_TerrainGeneration/MeshTool_ex1.png" width="50%" height="50%" />
+<img src="/assets/content/blogs/Collection3_Effect/MeshCombine/MeshTool_ex1.png" width="50%" height="50%" />
 
 So there are three conditions for the two traingle intersection. 
 1. Two points are in the triangle
