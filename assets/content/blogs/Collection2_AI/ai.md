@@ -1,6 +1,6 @@
 ## AI Developemnt
 
-Here is a list of posts that I wrote to share what I explore what I learned about AI Development.
+Here is a list of posts that I wrote to share what I explore in AI Development.
 
 ### Posts
 
